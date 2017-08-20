@@ -1,0 +1,186 @@
+[ 2017-08-20T14:16:20+08:00 ] 127.0.0.1 /index.php/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-20T14:16:20+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001686s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-20T14:16:20+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-20T14:16:20+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-20T14:16:20+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001810s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-20T14:16:20+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-20T14:16:20+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001828s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-20T14:16:23+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-08-20T17:04:13+08:00 ] 127.0.0.1 /css/zTreeStyle/zTreeStyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+ERR: 无法加载模块:Css
+
+[ 2017-08-20T17:04:13+08:00 ] 127.0.0.1 /js/jquery.ztree.excheck.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+ERR: 无法加载模块:Js
+
+[ 2017-08-20T17:04:13+08:00 ] 127.0.0.1 /js/jquery.ztree.core.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+ERR: 无法加载模块:Js
+
+[ 2017-08-20T17:04:13+08:00 ] 127.0.0.1 /js/jquery.ztree.core.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+ERR: 无法加载模块:Js
+
+[ 2017-08-20T17:04:13+08:00 ] 127.0.0.1 /css/zTreeStyle/zTreeStyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+ERR: 无法加载模块:Css
+
+[ 2017-08-20T17:04:14+08:00 ] 127.0.0.1 /js/jquery.ztree.excheck.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+ERR: 无法加载模块:Js
+
+[ 2017-08-20T17:05:04+08:00 ] 127.0.0.1 /js/jquery.ztree.core.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+ERR: 无法加载模块:Js
+
+[ 2017-08-20T17:05:04+08:00 ] 127.0.0.1 /js/jquery.ztree.excheck.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+ERR: 无法加载模块:Js
+
+[ 2017-08-20T17:05:04+08:00 ] 127.0.0.1 /js/jquery.ztree.core.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+ERR: 无法加载模块:Js
+
+[ 2017-08-20T17:05:04+08:00 ] 127.0.0.1 /js/jquery.ztree.excheck.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+ERR: 无法加载模块:Js
+
+[ 2017-08-20T17:49:32+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:49:32+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:49:34+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005526s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:49:34+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002027s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:50:11+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:50:12+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:50:22+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002134s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:50:22+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:52:46+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:52:47+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:52:59+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:53:44+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+ERR: 无法加载模块:Public
+
+[ 2017-08-20T17:54:04+08:00 ] 127.0.0.1 /Public/others/jquery.validation.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+ERR: 无法加载模块:Public
+

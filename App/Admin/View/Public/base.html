@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<!-- 头部 -->
+	<include file="Public/head" />
+	<!-- 头部 -->
+
+	<body>
+
+		<!-- 顶部 -->
+		<include file="Public/top" />
+		<!-- 顶部 -->
+
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="main-container-inner">
+				
+				<!-- 菜单 -->
+				<include file="Public/menu" />
+				<!-- 菜单 -->
+
+				<div class="main-content">
+					
+					<!-- 面包屑导航 -->
+					<include file="Public/breadcrumb" />
+					<!-- 面包屑导航 -->
+
+					<!-- 右侧下主要内容开始 -->
+					<block name="page-content"></block>
+					<!-- 右侧下主要内容结束 -->
+
+				</div><!-- /.main-content -->
+
+				<!-- 界面设置 -->
+				<include file="Public/setting" />
+				<!-- 界面设置 -->
+
+			</div><!-- /.main-container-inner -->
+
+			<!-- 返回顶部 -->
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="icon-double-angle-up icon-only bigger-110"></i>
+			</a>
+			<!-- 返回顶部 -->
+
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+		<include file="Public/scripts" />
+		<!-- basic scripts -->
+
+		<!-- 此页相关插件js -->
+		<block name="scripts"></block>
+		<!-- 与此页相关的js -->
+		
+</body>
+</html>
+

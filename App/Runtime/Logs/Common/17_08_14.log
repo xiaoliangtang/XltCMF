@@ -1,0 +1,72 @@
+[ 2017-08-14T19:47:50+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-08-14T21:28:45+08:00 ] 127.0.0.1 /index.php/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:45+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:45+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:45+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:45+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006106s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:45+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:46+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:46+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:46+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:46+08:00 ] 127.0.0.1 /index.php/assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-08-14T21:28:46+08:00 ] 127.0.0.1 /index.php/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+ERR: 无法加载模块:Assets
+
