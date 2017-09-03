@@ -28,6 +28,9 @@
 		<link rel="stylesheet" href="/Public/ace/css/ace-rtl.min.css" />
 		<link rel="stylesheet" href="/Public/ace/css/ace-skins.min.css" />
 
+		<!-- xltcmf styles -->
+		<link rel="stylesheet" href="/Public/xltcmf/xltcmf.css" />
+
 		
 
 		<!--[if lte IE 8]>
@@ -492,199 +495,6 @@
 							</ul>
 						</li>
 
-						<li>
-							<a href="#" class="dropdown-toggle">
-								<i class="icon-list"></i>
-								<span class="menu-text"> 表格 </span>
-
-								<b class="arrow icon-angle-down"></b>
-							</a>
-
-							<ul class="submenu">
-								<li>
-									<a href="tables.html">
-										<i class="icon-double-angle-right"></i>
-										简单 &amp; 动态
-									</a>
-								</li>
-
-								<li>
-									<a href="jqgrid.html">
-										<i class="icon-double-angle-right"></i>
-										jqGrid plugin
-									</a>
-								</li>
-							</ul>
-						</li>
-
-						<li>
-							<a href="#" class="dropdown-toggle">
-								<i class="icon-edit"></i>
-								<span class="menu-text"> 表单 </span>
-
-								<b class="arrow icon-angle-down"></b>
-							</a>
-
-							<ul class="submenu">
-								<li>
-									<a href="form-elements.html">
-										<i class="icon-double-angle-right"></i>
-										表单组件
-									</a>
-								</li>
-
-								<li>
-									<a href="form-wizard.html">
-										<i class="icon-double-angle-right"></i>
-										向导提示 &amp; 验证
-									</a>
-								</li>
-
-								<li>
-									<a href="wysiwyg.html">
-										<i class="icon-double-angle-right"></i>
-										编辑器
-									</a>
-								</li>
-
-								<li>
-									<a href="dropzone.html">
-										<i class="icon-double-angle-right"></i>
-										文件上传
-									</a>
-								</li>
-							</ul>
-						</li>
-
-						<li>
-							<a href="widgets.html">
-								<i class="icon-list-alt"></i>
-								<span class="menu-text"> 插件 </span>
-							</a>
-						</li>
-
-						<li>
-							<a href="calendar.html">
-								<i class="icon-calendar"></i>
-
-								<span class="menu-text">
-									日历
-									<span class="badge badge-transparent tooltip-error" title="2&nbsp;Important&nbsp;Events">
-										<i class="icon-warning-sign red bigger-130"></i>
-									</span>
-								</span>
-							</a>
-						</li>
-
-						<li>
-							<a href="gallery.html">
-								<i class="icon-picture"></i>
-								<span class="menu-text"> 相册 </span>
-							</a>
-						</li>
-
-						<li>
-							<a href="#" class="dropdown-toggle">
-								<i class="icon-tag"></i>
-								<span class="menu-text"> 更多页面 </span>
-
-								<b class="arrow icon-angle-down"></b>
-							</a>
-
-							<ul class="submenu">
-								<li>
-									<a href="profile.html">
-										<i class="icon-double-angle-right"></i>
-										用户信息
-									</a>
-								</li>
-
-								<li>
-									<a href="inbox.html">
-										<i class="icon-double-angle-right"></i>
-										收件箱
-									</a>
-								</li>
-
-								<li>
-									<a href="pricing.html">
-										<i class="icon-double-angle-right"></i>
-										售价单
-									</a>
-								</li>
-
-								<li>
-									<a href="invoice.html">
-										<i class="icon-double-angle-right"></i>
-										购物车
-									</a>
-								</li>
-
-								<li>
-									<a href="timeline.html">
-										<i class="icon-double-angle-right"></i>
-										时间轴
-									</a>
-								</li>
-
-								<li>
-									<a href="login.html">
-										<i class="icon-double-angle-right"></i>
-										登录 &amp; 注册
-									</a>
-								</li>
-							</ul>
-						</li>
-
-						<li>
-							<a href="#" class="dropdown-toggle">
-								<i class="icon-file-alt"></i>
-
-								<span class="menu-text">
-									其他页面
-									<span class="badge badge-primary ">5</span>
-								</span>
-
-								<b class="arrow icon-angle-down"></b>
-							</a>
-
-							<ul class="submenu">
-								<li>
-									<a href="faq.html">
-										<i class="icon-double-angle-right"></i>
-										帮助
-									</a>
-								</li>
-
-								<li>
-									<a href="error-404.html">
-										<i class="icon-double-angle-right"></i>
-										404错误页面
-									</a>
-								</li>
-
-								<li>
-									<a href="error-500.html">
-										<i class="icon-double-angle-right"></i>
-										500错误页面
-									</a>
-								</li>
-
-								<li>
-									<a href="grid.html">
-										<i class="icon-double-angle-right"></i>
-										网格
-									</a>
-								</li>
-
-								<li>
-									<a href="blank.html">
-										<i class="icon-double-angle-right"></i>
-										空白页面
-									</a>
-								</li>
-							</ul>
-						</li>
 					</ul><!-- /.nav-list -->
 
 					<div class="sidebar-collapse" id="sidebar-collapse">
@@ -743,11 +553,11 @@
 		<div class="tabbable">
 			<ul class="nav nav-tabs padding-12 tab-color-blue background-blue" id="myTab4">
 				<li class="active">
-					<a data-toggle="tab" href="#user_list">管理员列表</a>
+					<a href="<?php echo U('User/index');?>">管理员列表</a>
 				</li>
 
 				<li>
-					<a data-toggle="tab" href="#user_add">添加管理员</a>
+					<a href="<?php echo U('User/user_add');?>">添加管理员</a>
 				</li>
 
 			</ul>
@@ -791,21 +601,19 @@
 													<tr>
 														<th class="center">
 															<label>
-																<input type="checkbox" class="ace" />
+																<input type="checkbox" value="" class="ace" />
 																<span class="lbl"></span>
 															</label>
 														</th>
-														<th>Domain</th>
-														<th>Price</th>
-														<th class="hidden-480">Clicks</th>
-
-														<th>
-															<i class="icon-time bigger-110 hidden-480"></i>
-															Update
-														</th>
-														<th class="hidden-480">Status</th>
-
-														<th></th>
+														<th>登录用户名</th>
+														<th>真实姓名</th>
+														<th>用户组</th>
+														<th>邮箱</th>
+														<th>电话号码</th>
+														<th>登录IP</th>
+														<th>登录次数</th>
+														<th>状态</th>
+														<th>操作</th>
 													</tr>
 												</thead>
 
@@ -818,28 +626,35 @@
 															</label>
 														</td>
 
-														<td>
-															<a href="#">app.com</a>
-														</td>
+														<td>admin</td>
 														<td>$45</td>
-														<td class="hidden-480">3,330</td>
+														<td>3,330</td>
+														<td>Feb 12</td>
+														<td>Feb 12</td>
+														<td>Feb 12</td>
 														<td>Feb 12</td>
 
-														<td class="hidden-480">
-															<span class="label label-sm label-warning">Expiring</span>
+														<td>
+															<?php if($v['status'] == 1): ?><a class="red display-btn" href="<?php echo U('User/user_status');?>" data-id="<?php echo ($v["id"]); ?>" title="已开启">
+																	<div id="zt<?php echo ($v["id"]); ?>"><button class="btn btn-minier btn-yellow">开启</button></div>
+																</a>
+																<?php else: ?>
+																<a class="red display-btn" href="<?php echo U('Menu/user_status');?>" data-id="<?php echo ($v["id"]); ?>" title="已禁用">
+																	<div id="zt<?php echo ($v["id"]); ?>"><button class="btn btn-minier btn-danger">禁用</button></div>
+																</a><?php endif; ?>
 														</td>
 
 														<td>
 															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
+																<a class="blue" href="<?php echo U('Menu/menu_add',array('pid'=>$v['id']));?>">
+																	<i class="icon-plus-sign bigger-130"></i>
 																</a>
 
-																<a class="green" href="#" data-toggle="modal" data-target="#editModal">
+																<a class="green" href="<?php echo U('Menu/menu_edit',array('id'=>$v['id']));?>">
 																	<i class="icon-pencil bigger-130"></i>
 																</a>
 
-																<a class="red" href="#">
+																<a class="red confirm-menu-delete" href="<?php echo U('Menu/menu_delete',array('id'=>$v['id']));?>" data-info="你确定要删除吗？" title="删除">
 																	<i class="icon-trash bigger-130"></i>
 																</a>
 															</div>
@@ -878,428 +693,8 @@
 																</div>
 															</div>
 														</td>
+														
 													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">base.com</a>
-														</td>
-														<td>$35</td>
-														<td class="hidden-480">2,595</td>
-														<td>Feb 18</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-success">Registered</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">max.com</a>
-														</td>
-														<td>$60</td>
-														<td class="hidden-480">4,400</td>
-														<td>Mar 11</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-warning">Expiring</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">best.com</a>
-														</td>
-														<td>$75</td>
-														<td class="hidden-480">6,500</td>
-														<td>Apr 03</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-inverse arrowed-in">Flagged</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">pro.com</a>
-														</td>
-														<td>$55</td>
-														<td class="hidden-480">4,250</td>
-														<td>Jan 21</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-success">Registered</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">team.com</a>
-														</td>
-														<td>$40</td>
-														<td class="hidden-480">3,200</td>
-														<td>Feb 09</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-inverse arrowed-in">Flagged</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">up.com</a>
-														</td>
-														<td>$95</td>
-														<td class="hidden-480">8,520</td>
-														<td>Feb 22</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-info arrowed arrowed-righ">Sold</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
 												</tbody>
 											</table>
 										</div>
@@ -1343,250 +738,9 @@
 
 				</div>
 
-				<div id="user_add" class="tab-pane">
-					<div class="page-content">
-
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-
-								<form class="form-horizontal" role="form" name="user_add" method="post" action="<?php echo U('User/user_runadd');?>">
-
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 所属用户组 </label>
-
-										<div class="col-sm-9">
-											<select name="member_list_groupid"  class="col-sm-4 selector" required>
-												<option value="">请选择所属用户组</option>
-													<option value="<?php echo ($v["member_group_id"]); ?>">超级管理员</option>
-											</select>
-										</div>
-									</div>
-
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 登录用户名 </label>
-
-										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入登录用户名" class="col-xs-10 col-sm-5" required />
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，用户名必须是以字母开头，数字、符号组合</span>
-										</div>
-									</div>
-
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 登入密码 </label>
-
-										<div class="col-sm-9">
-											<input type="password" id="form-field-2" placeholder="输入登入密码" class="col-xs-10 col-sm-5" />
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须大于6位，小于15位</span>
-										</div>
-									</div>
-
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户邮箱 </label>
-
-										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入用户邮箱" class="col-xs-10 col-sm-5" />
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于密码找回，请认真填写</span>
-										</div>
-									</div>
-
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 手机号码 </label>
-
-										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入手机号码" class="col-xs-10 col-sm-5" />
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>只能填写数字</span>
-										</div>
-									</div>
-
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户昵称 </label>
-
-										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入用户昵称" class="col-xs-10 col-sm-5" />
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于发布信息所有人，且在前端显示</span>
-										</div>
-									</div>
-
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 是否审核 </label>
-										<div class="col-sm-9" style="padding-top:5px;">
-											<input name="member_group_open" id="member_group_open" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
-											<span class="lbl">&nbsp;&nbsp;默认无需审核</span>
-										</div>
-									</div>
-
-									<div class="clearfix form-actions">
-										<div class="col-md-offset-3 col-md-9">
-											<button class="btn btn-info" type="button">
-												<i class="icon-ok bigger-110"></i>
-												确定
-											</button>
-
-											&nbsp; &nbsp; &nbsp;
-											<button class="btn" type="reset">
-												<i class="icon-undo bigger-110"></i>
-												重置
-											</button>
-										</div>
-									</div>
-
-								</form>
-								
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-					</div><!-- /.page-content -->
-
-				</div>
-
-
 			</div>
 		</div>
 	</div><!-- /span -->
-
-
-
-	<!-- 显示编辑模态框（Modal） -->
-	<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-
-		<div class="modal-dialog" style="width: 70%;">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"
-							aria-hidden="true">×
-					</button>
-					<h4 class="modal-title" id="myModalLabel">
-						编辑用户
-					</h4>
-				</div>
-				<div class="modal-body">
-
-					<div class="row">
-						<div class="col-xs-12">
-							<!-- PAGE CONTENT BEGINS -->
-
-							<form class="form-horizontal" role="form" name="user_add" method="post" action="<?php echo U('User/user_runadd');?>">
-
-								<div class="form-group">
-									<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 所属用户组 </label>
-
-									<div class="col-sm-9">
-										<select name="member_list_groupid"  class="col-sm-4 selector" required>
-											<option value="">请选择所属用户组</option>
-												<option value="<?php echo ($v["member_group_id"]); ?>">超级管理员</option>
-										</select>
-									</div>
-								</div>
-
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 登录用户名 </label>
-
-									<div class="col-sm-9">
-										<input type="text" id="form-field-1" placeholder="输入登录用户名" class="col-xs-10 col-sm-5" required />
-										<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，用户名必须是以字母开头，数字、符号组合</span>
-									</div>
-								</div>
-
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 登入密码 </label>
-
-									<div class="col-sm-9">
-										<input type="password" id="form-field-2" placeholder="输入登入密码" class="col-xs-10 col-sm-5" />
-										<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须大于6位，小于15位</span>
-									</div>
-								</div>
-
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户邮箱 </label>
-
-									<div class="col-sm-9">
-										<input type="text" id="form-field-1" placeholder="输入用户邮箱" class="col-xs-10 col-sm-5" />
-										<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于密码找回，请认真填写</span>
-									</div>
-								</div>
-
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 手机号码 </label>
-
-									<div class="col-sm-9">
-										<input type="text" id="form-field-1" placeholder="输入手机号码" class="col-xs-10 col-sm-5" />
-										<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>只能填写数字</span>
-									</div>
-								</div>
-
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户昵称 </label>
-
-									<div class="col-sm-9">
-										<input type="text" id="form-field-1" placeholder="输入用户昵称" class="col-xs-10 col-sm-5" />
-										<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于发布信息所有人，且在前端显示</span>
-									</div>
-								</div>
-
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 是否审核 </label>
-									<div class="col-sm-9" style="padding-top:5px;">
-										<input name="member_group_open" id="member_group_open" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
-										<span class="lbl">&nbsp;&nbsp;默认无需审核</span>
-									</div>
-								</div>
-
-								<div class="modal-footer">
-									<button type="submit" class="btn btn-primary">
-										提交保存
-									</button>
-									<button class="btn btn-info" type="reset">
-										重置
-									</button>
-									<button type="button" class="btn btn-default" data-dismiss="modal">
-										关闭
-									</button>
-								</div>
-
-							</form>
-							
-						</div><!-- /.col -->
-					</div><!-- /.row -->
-
-
-
-
-				</div>
-				
-			</div><!-- /.modal-content -->
-		</div><!-- /.modal-dialog -->
-
-	</div><!-- /.modal -->
-
-
-
-
-
-
 
 
 					<!-- 右侧下主要内容结束 -->
@@ -1658,7 +812,7 @@
 
 	<!--[if !IE]> -->
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
 
 	<!-- <![endif]-->
 
@@ -1704,17 +858,17 @@
 	<script src="/Public/ace/js/flot/jquery.flot.min.js"></script>
 	<script src="/Public/ace/js/flot/jquery.flot.pie.min.js"></script>
 	<script src="/Public/ace/js/flot/jquery.flot.resize.min.js"></script>
-	
-	<!-- jquery.form、layer、jquery.validation/xltcmf的js -->
-	<script src="/Public/others/jquery.form.js"></script>
-	<script src="/Public/layer/layer_zh-cn.js"></script>
-	<script src="/Public/others/jquery.validation.min.js"></script>
-	<script src="/Public/xltcmf/xltcmf.js"></script>
 
 	<!-- ace scripts -->
 
 	<script src="/Public/ace/js/ace-elements.min.js"></script>
 	<script src="/Public/ace/js/ace.min.js"></script>
+
+	<!-- jquery.form、layer、jquery.validation、xltcmf的js -->
+	<script src="/Public/others/jquery.form.js"></script>
+	<script src="/Public/layer/layer_zh-cn.js"></script>
+	<script src="/Public/others/jquery.validation.min.js"></script>
+	<script src="/Public/xltcmf/xltcmf.js"></script>
 
 		<!-- basic scripts -->
 

@@ -1,0 +1,2025 @@
+[ 2017-08-22T20:18:04+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.025297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.026437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.195444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002338s ]
+
+[ 2017-08-22T20:18:55+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001805s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002254s ]
+
+[ 2017-08-22T20:19:59+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002880s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003276s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004091s ]
+
+[ 2017-08-22T20:20:22+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001556s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001902s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002973s ]
+
+[ 2017-08-22T20:20:33+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001778s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002191s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002789s ]
+
+[ 2017-08-22T20:21:45+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001576s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001929s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002162s ]
+
+[ 2017-08-22T20:23:23+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2017-08-22T20:24:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002958s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003918s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002669s ]
+
+[ 2017-08-22T20:25:12+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002987s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003100s ]
+
+[ 2017-08-22T20:25:51+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001770s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002223s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002797s ]
+
+[ 2017-08-22T20:33:20+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002595s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002895s ]
+
+[ 2017-08-22T20:33:34+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002587s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003144s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003010s ]
+
+[ 2017-08-22T20:34:12+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001647s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002048s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002435s ]
+
+[ 2017-08-22T20:41:57+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.326217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.326564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001296s ]
+
+[ 2017-08-22T20:50:33+08:00 ] 127.0.0.1 /index.php/Admin/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001867s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002495s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1165 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1165 行.
+NOTIC: [8] Undefined variable: vo G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1220 行.
+NOTIC: [8] Undefined variable: vo G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1220 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1362 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1362 行.
+NOTIC: [8] Undefined variable: vo G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1417 行.
+NOTIC: [8] Undefined variable: vo G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1417 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003466s ]
+
+[ 2017-08-22T20:55:50+08:00 ] 127.0.0.1 /index.php/Admin/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002595s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1165 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1165 行.
+NOTIC: [8] Undefined variable: vo G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1220 行.
+NOTIC: [8] Undefined variable: vo G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1220 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1362 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1362 行.
+NOTIC: [8] Undefined variable: vo G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1417 行.
+NOTIC: [8] Undefined variable: vo G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\24a7b615857159f3d4f882795b651d68.php 第 1417 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2017-08-22T20:55:56+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002474s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002679s ]
+
+[ 2017-08-22T20:56:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000548s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001910s ]
+
+[ 2017-08-22T20:58:43+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001703s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002167s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002145s ]
+
+[ 2017-08-22T20:58:48+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002209s ]
+
+[ 2017-08-22T20:58:54+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001577s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002013s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2017-08-22T20:59:52+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001765s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002192s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002520s ]
+
+[ 2017-08-22T20:59:57+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007518s ]
+
+[ 2017-08-22T20:59:59+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002673s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005784s ]
+
+[ 2017-08-22T21:06:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002594s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003107s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003310s ]
+
+[ 2017-08-22T21:07:35+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001825s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003017s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2017-08-22T21:10:00+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000746s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010561s ]
+
+[ 2017-08-22T21:10:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001924s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002372s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003567s ]
+
+[ 2017-08-22T21:10:24+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003877s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004421s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004398s ]
+
+[ 2017-08-22T21:10:30+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000978s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006681s ]
+
+[ 2017-08-22T21:10:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002734s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003198s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1148 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1258 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003085s ]
+
+[ 2017-08-22T21:15:11+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005940s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006399s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002147s ]
+
+[ 2017-08-22T21:15:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003614s ]
+
+[ 2017-08-22T21:15:16+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002802s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002900s ]
+
+[ 2017-08-22T21:17:45+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001586s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001977s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2017-08-22T21:17:50+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+
+[ 2017-08-22T21:18:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001986s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002543s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002357s ]
+
+[ 2017-08-22T21:18:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001556s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001965s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2017-08-22T21:18:16+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+
+[ 2017-08-22T21:18:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001927s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002239s ]
+
+[ 2017-08-22T21:19:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001620s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002071s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003688s ]
+
+[ 2017-08-22T21:19:24+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003727s ]
+
+[ 2017-08-22T21:19:33+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001809s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002263s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2017-08-22T21:20:12+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001709s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002442s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002312s ]
+
+[ 2017-08-22T21:20:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002746s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002175s ]
+
+[ 2017-08-22T21:20:58+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002494s ]
+
+[ 2017-08-22T21:21:04+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001899s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2017-08-22T21:33:17+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001947s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002508s ]
+
+[ 2017-08-22T21:33:54+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:34:00+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:34:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:34:04+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001489s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001851s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004388s ]
+
+[ 2017-08-22T21:34:21+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:34:23+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:34:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:34:28+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001870s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002319s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2017-08-22T21:36:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001643s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002030s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2017-08-22T21:36:23+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002561s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:36:25+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:36:26+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:36:26+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:36:26+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:36:35+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003903s ]
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1146 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1256 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+NOTIC: [8] Undefined variable: v G:\WorkSpace\Web\XltCMF\App\Runtime\Cache\Admin\5a1d71dcf039f1b3725a8d8d96ae9d91.php 第 1369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002040s ]
+
+[ 2017-08-22T21:37:21+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-08-22T21:37:52+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:38:00+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002504s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:39:17+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+
+[ 2017-08-22T21:39:26+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003183s ]
+
+[ 2017-08-22T21:39:57+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001792s ]
+
+[ 2017-08-22T21:40:06+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002369s ]
+
+[ 2017-08-22T21:40:18+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:40:18+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:40:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003069s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:40:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002933s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:40:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:40:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:40:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:40:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007963s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:40:20+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:40:25+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-08-22T21:44:11+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0017s ]
+SQL: INSERT INTO `xlt_menu` (`pid`,`title`,`name`,`css`,`status`,`sort`,`addtime`) VALUES ('0','系统设置','System/index','fa-tachometer','1','50','1503409451') [ RunTime:0.0010s ]
+
+[ 2017-08-22T21:45:36+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+
+[ 2017-08-22T21:46:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003055s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0017s ]
+SQL: INSERT INTO `xlt_menu` (`pid`,`title`,`name`,`css`,`status`,`sort`,`addtime`) VALUES ('0','用户管理','User/index','fa-folder','0','2','1503409570') [ RunTime:0.0013s ]
+
+[ 2017-08-22T21:47:28+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-08-22T21:48:30+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0022s ]
+SQL: INSERT INTO `xlt_menu` (`pid`,`title`,`name`,`css`,`status`,`sort`,`addtime`) VALUES ('0','管理组','User/index',' fa-list','1','3','1503409710') [ RunTime:0.0011s ]
+
+[ 2017-08-22T21:49:43+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-08-22T21:49:44+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+
+[ 2017-08-22T21:49:45+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-08-22T21:50:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+
+[ 2017-08-22T21:50:38+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0033s ]
+SQL: INSERT INTO `xlt_menu` (`pid`,`title`,`name`,`css`,`status`,`sort`,`addtime`) VALUES ('0','管理员','User/index','','1','1','1503409838') [ RunTime:0.0010s ]
+
+[ 2017-08-22T21:50:41+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+
+[ 2017-08-22T21:55:56+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-08-22T21:57:20+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+
+[ 2017-08-22T21:59:33+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+
+[ 2017-08-22T21:59:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+
+[ 2017-08-22T22:00:18+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+
+[ 2017-08-22T22:00:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+
+[ 2017-08-22T22:00:43+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002774s ]
+
+[ 2017-08-22T22:00:50+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-08-22T22:01:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+
+[ 2017-08-22T22:01:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001866s ]
+
+[ 2017-08-22T22:01:45+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+
+[ 2017-08-22T22:01:50+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+
+[ 2017-08-22T22:02:29+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003195s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0025s ]
+SQL: INSERT INTO `xlt_menu` (`pid`,`title`,`name`,`css`,`status`,`sort`,`addtime`) VALUES ('4','添加管理员','User/index','','1','50','1503410549') [ RunTime:0.0012s ]
+
+[ 2017-08-22T22:02:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+
+[ 2017-08-22T22:03:02+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+
+[ 2017-08-22T22:03:14+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-08-22T22:05:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+
+[ 2017-08-22T22:05:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+
+[ 2017-08-22T22:05:52+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+
+[ 2017-08-22T22:12:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-08-22T22:48:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003799s ]
+
+[ 2017-08-22T22:48:47+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002341s ]
+
+[ 2017-08-22T22:49:06+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003885s ]
+
+[ 2017-08-22T22:51:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+
+[ 2017-08-22T22:53:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+
+[ 2017-08-22T22:53:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002074s ]
+
+[ 2017-08-22T22:54:05+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-08-22T22:54:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+
+[ 2017-08-22T22:54:17+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+
+[ 2017-08-22T22:54:25+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-22T22:54:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-08-22T22:54:36+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-08-22T22:54:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+
+[ 2017-08-22T22:57:49+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+
+[ 2017-08-22T22:57:52+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+
+[ 2017-08-22T22:57:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-08-22T22:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+
+[ 2017-08-22T22:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+
+[ 2017-08-22T22:58:47+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000224s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+
+[ 2017-08-22T22:58:48+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+
+[ 2017-08-22T22:58:50+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+
+[ 2017-08-22T22:58:51+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+
+[ 2017-08-22T22:58:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-08-22T22:59:26+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-08-22T22:59:29+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+
+[ 2017-08-22T22:59:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002282s ]
+
+[ 2017-08-22T22:59:38+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000328s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002052s ]
+
+[ 2017-08-22T22:59:40+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+
+[ 2017-08-22T22:59:42+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+
+[ 2017-08-22T22:59:47+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+
+[ 2017-08-22T23:02:31+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+
+[ 2017-08-22T23:02:36+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+
+[ 2017-08-22T23:02:38+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-08-22T23:02:39+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+
+[ 2017-08-22T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+
+[ 2017-08-22T23:05:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+
+[ 2017-08-22T23:05:16+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+
+[ 2017-08-22T23:05:17+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+
+[ 2017-08-22T23:05:19+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+
+[ 2017-08-22T23:10:10+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+
+[ 2017-08-22T23:12:15+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002818s ]
+
+[ 2017-08-22T23:12:24+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002034s ]
+
+[ 2017-08-22T23:12:25+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+
+[ 2017-08-22T23:12:29+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+
+[ 2017-08-22T23:12:32+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+
+[ 2017-08-22T23:12:33+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+
+[ 2017-08-22T23:12:37+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+
+[ 2017-08-22T23:12:53+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+
+[ 2017-08-22T23:13:01+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+
+[ 2017-08-22T23:13:03+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003104s ]
+
+[ 2017-08-22T23:13:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001671s ]
+
+[ 2017-08-22T23:13:13+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+
+[ 2017-08-22T23:26:08+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+
+[ 2017-08-22T23:26:09+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+
+[ 2017-08-22T23:26:13+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+

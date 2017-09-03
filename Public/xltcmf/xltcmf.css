@@ -1,1 +1,6 @@
-/************* xltcmf.js *************/
+/************* xltcmf.css *************/
+.xltcmf-input-sort{
+	width: 50px;
+    border: #fc6 solid 1px;
+    height: 25px;
+}

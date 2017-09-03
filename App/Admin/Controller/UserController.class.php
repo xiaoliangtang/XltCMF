@@ -11,14 +11,41 @@ class UserController extends BaseController {
         $this->display('index');
     }
 
-    //添加用户界面
+    /**
+     * 添加用户
+     */
     public function user_add(){
+
+        $this->display('user_add');
 
     }
 
-    //添加用户操作
+    /**
+     * 添加用户操作
+     */
     public function user_runadd(){
 
+    }
+
+    /**
+     * 编辑用户
+     */
+    public function user_edit(){
+        $this->display('user_edit');
+    }
+
+    /**
+     * 编辑用户操作
+     */
+    public function user_runedit(){
+
+    }
+
+    /**
+     * 删除用户
+     */
+    public function user_delete(){
+        
     }
 
     //角色列表

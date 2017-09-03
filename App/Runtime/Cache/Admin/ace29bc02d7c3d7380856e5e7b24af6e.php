@@ -552,18 +552,18 @@
 	<div class="col-xs-12">
 		<div class="tabbable">
 			<ul class="nav nav-tabs padding-12 tab-color-blue background-blue" id="myTab4">
-				<li class="active">
-					<a href="<?php echo U('Menu/index');?>">菜单列表</a>
+				<li>
+					<a href="<?php echo U('User/index');?>">管理员列表</a>
 				</li>
 
-				<li>
-					<a href="<?php echo U('Menu/menu_add');?>">添加菜单</a>
+				<li class="active">
+					<a href="<?php echo U('User/user_add');?>">添加管理员</a>
 				</li>
 
 			</ul>
 
 			<div class="tab-content">
-				<div id="menu_list" class="tab-pane in active">
+				<div id="user_add" class="tab-pane in active">
 
 					<div class="page-content">
 
@@ -575,156 +575,105 @@
 								<div class="row">
 									<div class="col-xs-12">
 
-										<div class="table-responsive">
-											<table id="sample-table-2" class="table table-striped table-bordered table-hover">
-												<thead>
-													<tr>
-														<th class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</th>
-														<th>ID</th>
-														<th>排序</th>
-														<th>展开</th>
-														<th>菜单名称</th>
-														<th>控制器/方法</th>
-														<th>状态</th>
-														<th>级别</th>
-														<th>操作</th>
-													</tr>
-												</thead>
+										<!-- PAGE CONTENT BEGINS -->
 
-												<tbody>
+										<form class="form-horizontal" role="form" name="user_add" method="post" action="<?php echo U('User/user_runadd');?>">
 
-												<?php if(is_array($menus)): $i = 0; $__LIST__ = $menus;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><tr id="<?php echo ($pid); ?>-<?php echo ($v["id"]); ?>">
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace"
-																 name="id" value="<?php echo ($v["id"]); ?>" />
-																<span class="lbl"></span>
-															</label>
-														</td>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 所属用户组 </label>
 
-														<td><?php echo ($v["id"]); ?></td>
+												<div class="col-sm-9">
+													<select name="member_list_groupid"  class="col-sm-4 selector" required>
+														<option value="">请选择所属用户组</option>
+															<option value="<?php echo ($v["member_group_id"]); ?>">超级管理员</option>
+													</select>
+												</div>
+											</div>
 
-														<td>
-															<label>
-																<input type="text" name="<?php echo ($v["id"]); ?>" value="<?php echo ($v["sort"]); ?>" class="xltcmf-input-sort">
-															</label>
-														</td>
+											<div class="space-4"></div>
 
-														<td><a data-id="<?php echo ($v["id"]); ?>" data-level="<?php echo ($v["level"]); ?>" href="<?php echo U('Menu/index');?>" style="cursor:pointer;" class="ajax_menu_index"><span class="icon-plus blue"></span></a></td>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 登录用户名 </label>
 
-														<td><?php echo ($v["title"]); ?></td>
+												<div class="col-sm-9">
+													<input type="text" id="form-field-1" placeholder="输入登录用户名" class="col-xs-10 col-sm-5" required />
+													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，用户名必须是以字母开头，数字、符号组合</span>
+												</div>
+											</div>
 
-														<td><?php echo ($v["name"]); ?></td>
+											<div class="space-4"></div>
 
-														<td>
-															<?php if($v['status'] == 1): ?><a class="red display-btn" href="<?php echo U('Menu/menu_status');?>" data-id="<?php echo ($v["id"]); ?>" title="已显示">
-																	<div id="zt<?php echo ($v["id"]); ?>"><button class="btn btn-minier btn-yellow">显示</button></div>
-																</a>
-																<?php else: ?>
-																<a class="red display-btn" href="<?php echo U('Menu/menu_status');?>" data-id="<?php echo ($v["id"]); ?>" title="已隐藏">
-																	<div id="zt<?php echo ($v["id"]); ?>"><button class="btn btn-minier btn-danger">隐藏</button></div>
-																</a><?php endif; ?>
-														</td>
-														<td class="hidden-480"><?php echo ($v["level"]); ?>级</td>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 登入密码 </label>
 
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="<?php echo U('Menu/menu_add',array('pid'=>$v['id']));?>">
-																	<i class="icon-plus-sign bigger-130"></i>
-																</a>
+												<div class="col-sm-9">
+													<input type="password" id="form-field-2" placeholder="输入登入密码" class="col-xs-10 col-sm-5" />
+													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须大于6位，小于15位</span>
+												</div>
+											</div>
 
-																<a class="green" href="<?php echo U('Menu/menu_edit',array('id'=>$v['id']));?>">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
+											<div class="space-4"></div>
 
-																<a class="red confirm-menu-delete" href="<?php echo U('Menu/menu_delete',array('id'=>$v['id']));?>" data-info="你确定要删除吗？" title="删除">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户邮箱 </label>
 
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
+												<div class="col-sm-9">
+													<input type="text" id="form-field-1" placeholder="输入用户邮箱" class="col-xs-10 col-sm-5" />
+													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于密码找回，请认真填写</span>
+												</div>
+											</div>
 
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
+											<div class="space-4"></div>
 
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 手机号码 </label>
 
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+												<div class="col-sm-9">
+													<input type="text" id="form-field-1" placeholder="输入手机号码" class="col-xs-10 col-sm-5" />
+													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>只能填写数字</span>
+												</div>
+											</div>
 
-												<tr>
-													<td colspan="9" align="left">
-														<a class="btn btn-sm btn-primary" id="btnsort" href="<?php echo U('Menu/menu_sort');?>">排序</a>
-													</td>
-												</tr>
+											<div class="space-4"></div>
 
-												</tbody>
-											</table>
-										</div>
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户昵称 </label>
+
+												<div class="col-sm-9">
+													<input type="text" id="form-field-1" placeholder="输入用户昵称" class="col-xs-10 col-sm-5" />
+													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于发布信息所有人，且在前端显示</span>
+												</div>
+											</div>
+
+											<div class="space-4"></div>
+
+											<div class="form-group">
+												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 是否审核 </label>
+												<div class="col-sm-9" style="padding-top:5px;">
+													<input name="member_group_open" id="member_group_open" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
+													<span class="lbl">&nbsp;&nbsp;默认无需审核</span>
+												</div>
+											</div>
+
+											<div class="clearfix form-actions">
+												<div class="col-md-offset-3 col-md-9">
+													<button class="btn btn-info" type="button">
+														<i class="icon-ok bigger-110"></i>
+														确定
+													</button>
+
+													&nbsp; &nbsp; &nbsp;
+													<button class="btn" type="reset">
+														<i class="icon-undo bigger-110"></i>
+														重置
+													</button>
+												</div>
+											</div>
+
+										</form>
+										
 									</div>
 								</div>
-
-								<!-- 分页 -->
-								<div class="modal-footer no-margin-top">
-
-									<ul class="pagination pull-right no-margin">
-										<li class="prev disabled">
-											<a href="#">
-												<i class="icon-double-angle-left"></i>
-											</a>
-										</li>
-
-										<li class="active">
-											<a href="#">1</a>
-										</li>
-
-										<li>
-											<a href="#">2</a>
-										</li>
-
-										<li>
-											<a href="#">3</a>
-										</li>
-
-										<li class="next">
-											<a href="#">
-												<i class="icon-double-angle-right"></i>
-											</a>
-										</li>
-									</ul>
-								</div>
-								<!-- 分页 -->
 
 							</div><!-- /.col -->
 						</div><!-- /.row -->
@@ -732,13 +681,118 @@
 
 				</div>
 
-			</div>
+				<div id="user_add" class="tab-pane">
+					<div class="page-content">
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+
+								<form class="form-horizontal" role="form" name="user_add" method="post" action="<?php echo U('User/user_runadd');?>">
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 所属用户组 </label>
+
+										<div class="col-sm-9">
+											<select name="member_list_groupid"  class="col-sm-4 selector" required>
+												<option value="">请选择所属用户组</option>
+													<option value="<?php echo ($v["member_group_id"]); ?>">超级管理员</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 登录用户名 </label>
+
+										<div class="col-sm-9">
+											<input type="text" id="form-field-1" placeholder="输入登录用户名" class="col-xs-10 col-sm-5" required />
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，用户名必须是以字母开头，数字、符号组合</span>
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 登入密码 </label>
+
+										<div class="col-sm-9">
+											<input type="password" id="form-field-2" placeholder="输入登入密码" class="col-xs-10 col-sm-5" />
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须大于6位，小于15位</span>
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户邮箱 </label>
+
+										<div class="col-sm-9">
+											<input type="text" id="form-field-1" placeholder="输入用户邮箱" class="col-xs-10 col-sm-5" />
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于密码找回，请认真填写</span>
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 手机号码 </label>
+
+										<div class="col-sm-9">
+											<input type="text" id="form-field-1" placeholder="输入手机号码" class="col-xs-10 col-sm-5" />
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>只能填写数字</span>
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户昵称 </label>
+
+										<div class="col-sm-9">
+											<input type="text" id="form-field-1" placeholder="输入用户昵称" class="col-xs-10 col-sm-5" />
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于发布信息所有人，且在前端显示</span>
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 是否审核 </label>
+										<div class="col-sm-9" style="padding-top:5px;">
+											<input name="member_group_open" id="member_group_open" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
+											<span class="lbl">&nbsp;&nbsp;默认无需审核</span>
+										</div>
+									</div>
+
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<button class="btn btn-info" type="button">
+												<i class="icon-ok bigger-110"></i>
+												确定
+											</button>
+
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="icon-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+									</div>
+
+								</form>
+								
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+
+				</div>
 
 
 			</div>
 		</div>
 	</div><!-- /span -->
-
 
 
 					<!-- 右侧下主要内容结束 -->
@@ -873,9 +927,6 @@
 		<!-- 此页相关插件js -->
 		
 
-	<script type="text/javascript">
-		//$("#form_menu_add").validate();
-	</script>
 	<!-- page specific plugin scripts -->
 
 	<script src="/Public/ace/js/jquery.dataTables.min.js"></script>

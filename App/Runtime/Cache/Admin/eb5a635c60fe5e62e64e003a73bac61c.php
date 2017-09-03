@@ -552,11 +552,11 @@
 	<div class="col-xs-12">
 		<div class="tabbable">
 			<ul class="nav nav-tabs padding-12 tab-color-blue background-blue" id="myTab4">
-				<li class="active">
+				<li>
 					<a href="<?php echo U('Menu/index');?>">菜单列表</a>
 				</li>
 
-				<li>
+				<li class="active">
 					<a href="<?php echo U('Menu/menu_add');?>">添加菜单</a>
 				</li>
 
@@ -569,162 +569,84 @@
 
 						<div class="row">
 							<div class="col-xs-12">		
-										
-								<!-- PAGE CONTENT BEGINS -->
 
-								<div class="row">
-									<div class="col-xs-12">
-
-										<div class="table-responsive">
-											<table id="sample-table-2" class="table table-striped table-bordered table-hover">
-												<thead>
-													<tr>
-														<th class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</th>
-														<th>ID</th>
-														<th>排序</th>
-														<th>展开</th>
-														<th>菜单名称</th>
-														<th>控制器/方法</th>
-														<th>状态</th>
-														<th>级别</th>
-														<th>操作</th>
-													</tr>
-												</thead>
-
-												<tbody>
-
-												<?php if(is_array($menus)): $i = 0; $__LIST__ = $menus;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><tr id="<?php echo ($pid); ?>-<?php echo ($v["id"]); ?>">
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace"
-																 name="id" value="<?php echo ($v["id"]); ?>" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td><?php echo ($v["id"]); ?></td>
-
-														<td>
-															<label>
-																<input type="text" name="<?php echo ($v["id"]); ?>" value="<?php echo ($v["sort"]); ?>" class="xltcmf-input-sort">
-															</label>
-														</td>
-
-														<td><a data-id="<?php echo ($v["id"]); ?>" data-level="<?php echo ($v["level"]); ?>" href="<?php echo U('Menu/index');?>" style="cursor:pointer;" class="ajax_menu_index"><span class="icon-plus blue"></span></a></td>
-
-														<td><?php echo ($v["title"]); ?></td>
-
-														<td><?php echo ($v["name"]); ?></td>
-
-														<td>
-															<?php if($v['status'] == 1): ?><a class="red display-btn" href="<?php echo U('Menu/menu_status');?>" data-id="<?php echo ($v["id"]); ?>" title="已显示">
-																	<div id="zt<?php echo ($v["id"]); ?>"><button class="btn btn-minier btn-yellow">显示</button></div>
-																</a>
-																<?php else: ?>
-																<a class="red display-btn" href="<?php echo U('Menu/menu_status');?>" data-id="<?php echo ($v["id"]); ?>" title="已隐藏">
-																	<div id="zt<?php echo ($v["id"]); ?>"><button class="btn btn-minier btn-danger">隐藏</button></div>
-																</a><?php endif; ?>
-														</td>
-														<td class="hidden-480"><?php echo ($v["level"]); ?>级</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="<?php echo U('Menu/menu_add',array('pid'=>$v['id']));?>">
-																	<i class="icon-plus-sign bigger-130"></i>
-																</a>
-
-																<a class="green" href="<?php echo U('Menu/menu_edit',array('id'=>$v['id']));?>">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red confirm-menu-delete" href="<?php echo U('Menu/menu_delete',array('id'=>$v['id']));?>" data-info="你确定要删除吗？" title="删除">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-
-												<tr>
-													<td colspan="9" align="left">
-														<a class="btn btn-sm btn-primary" id="btnsort" href="<?php echo U('Menu/menu_sort');?>">排序</a>
-													</td>
-												</tr>
-
-												</tbody>
-											</table>
+								<form class="form-horizontal form_menu_add" name="admin_rule_copy" method="post" action="<?php echo U('Menu/menu_runadd');?>">
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 父级权限： </label>
+										<div class="col-sm-9">
+											<select name="pid_level"  class="col-xs-10 col-sm-5" required>
+												<option value="0-1">--默认顶级--</option>
+												<?php if(is_array($menu_layer)): foreach($menu_layer as $key=>$v): ?><option value="<?php echo ($v["id"]); ?>-<?php echo ($v["level"]); ?>" <?php if($v['id'] == $pid): ?>selected<?php endif; ?> ><?php echo ($v["lefthtml"]); echo ($v["title"]); ?></option><?php endforeach; endif; ?>
+											</select>
 										</div>
 									</div>
-								</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 导航标题： </label>
+										<div class="col-sm-9">
+											<input type="text" name="title" id="title"  value=""  class="col-xs-10 col-sm-5" required/>
+                                            <span class="help-inline col-xs-12 col-sm-7">
+												<span class="middle" id="resone"></span>
+											</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
 
-								<!-- 分页 -->
-								<div class="modal-footer no-margin-top">
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 控制器/方法： </label>
+										<div class="col-sm-9">
+											<input type="text" name="name" id="name"  value=""  class="col-xs-10 col-sm-5" required/>
+                                            <span class="help-inline col-xs-12 col-sm-7">
+												<span class="middle" id="restwo"></span>
+											</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
 
-									<ul class="pagination pull-right no-margin">
-										<li class="prev disabled">
-											<a href="#">
-												<i class="icon-double-angle-left"></i>
-											</a>
-										</li>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 样式名称： </label>
+										<div class="col-sm-9">
+											<input type="text" name="css" id="css"  value="" class="col-xs-10 col-sm-5" />
+				                            <span class="help-inline col-xs-12 col-sm-7">
+												<span class="middle">只针对顶级栏目有效</span>
+											</span>
+										</div>
+										<span class="col-sm-3"></span><span class="col-sm-9" style="font-size:12px; color:#999; margin-top:5px;">预留样式：fa-tachometer ， fa-folder ， fa-list ， fa-list-alt ， fa-calendar</span>
+									</div>
+									<div class="space-4"></div>
 
-										<li class="active">
-											<a href="#">1</a>
-										</li>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 是否开启： </label>
+										<div class="col-sm-9" style="padding-top:5px;">
+											<input name="status" value="1" class="ace ace-switch ace-switch-5" type="checkbox" checked="checked" />
+											<span class="lbl"></span>
+										</div>
+									</div>
+									<div class="space-4"></div>
 
-										<li>
-											<a href="#">2</a>
-										</li>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 排序（从小到大）： </label>
+										<div class="col-sm-9">
+											<input type="text" name="sort" id="sort"  value="50" class="col-xs-10 col-sm-1" />
+										</div>
+									</div>
+									<div class="space-4"></div>
 
-										<li>
-											<a href="#">3</a>
-										</li>
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<button class="btn btn-info" type="submit">
+												<i class="icon-ok bigger-110"></i>
+												确定
+											</button>
 
-										<li class="next">
-											<a href="#">
-												<i class="icon-double-angle-right"></i>
-											</a>
-										</li>
-									</ul>
-								</div>
-								<!-- 分页 -->
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="icon-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+									</div>
+
+								</form>
 
 							</div><!-- /.col -->
 						</div><!-- /.row -->
@@ -733,12 +655,8 @@
 				</div>
 
 			</div>
-
-
-			</div>
 		</div>
 	</div><!-- /span -->
-
 
 
 					<!-- 右侧下主要内容结束 -->
