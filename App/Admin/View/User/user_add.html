@@ -36,131 +36,17 @@
 										
 								<!-- PAGE CONTENT BEGINS -->
 
-								<div class="row">
-									<div class="col-xs-12">
-
-										<!-- PAGE CONTENT BEGINS -->
-
-										<form class="form-horizontal" role="form" name="user_add" method="post" action="{:U('User/user_runadd')}">
-
-											<div class="form-group">
-												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 所属用户组 </label>
-
-												<div class="col-sm-9">
-													<select name="member_list_groupid"  class="col-sm-4 selector" required>
-														<option value="">请选择所属用户组</option>
-															<option value="{$v.member_group_id}">超级管理员</option>
-													</select>
-												</div>
-											</div>
-
-											<div class="space-4"></div>
-
-											<div class="form-group">
-												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 登录用户名 </label>
-
-												<div class="col-sm-9">
-													<input type="text" id="form-field-1" placeholder="输入登录用户名" class="col-xs-10 col-sm-5" required />
-													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，用户名必须是以字母开头，数字、符号组合</span>
-												</div>
-											</div>
-
-											<div class="space-4"></div>
-
-											<div class="form-group">
-												<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 登入密码 </label>
-
-												<div class="col-sm-9">
-													<input type="password" id="form-field-2" placeholder="输入登入密码" class="col-xs-10 col-sm-5" />
-													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须大于6位，小于15位</span>
-												</div>
-											</div>
-
-											<div class="space-4"></div>
-
-											<div class="form-group">
-												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户邮箱 </label>
-
-												<div class="col-sm-9">
-													<input type="text" id="form-field-1" placeholder="输入用户邮箱" class="col-xs-10 col-sm-5" />
-													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于密码找回，请认真填写</span>
-												</div>
-											</div>
-
-											<div class="space-4"></div>
-
-											<div class="form-group">
-												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 手机号码 </label>
-
-												<div class="col-sm-9">
-													<input type="text" id="form-field-1" placeholder="输入手机号码" class="col-xs-10 col-sm-5" />
-													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>只能填写数字</span>
-												</div>
-											</div>
-
-											<div class="space-4"></div>
-
-											<div class="form-group">
-												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户昵称 </label>
-
-												<div class="col-sm-9">
-													<input type="text" id="form-field-1" placeholder="输入用户昵称" class="col-xs-10 col-sm-5" />
-													<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于发布信息所有人，且在前端显示</span>
-												</div>
-											</div>
-
-											<div class="space-4"></div>
-
-											<div class="form-group">
-												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 是否审核 </label>
-												<div class="col-sm-9" style="padding-top:5px;">
-													<input name="member_group_open" id="member_group_open" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
-													<span class="lbl">&nbsp;&nbsp;默认无需审核</span>
-												</div>
-											</div>
-
-											<div class="clearfix form-actions">
-												<div class="col-md-offset-3 col-md-9">
-													<button class="btn btn-info" type="button">
-														<i class="icon-ok bigger-110"></i>
-														确定
-													</button>
-
-													&nbsp; &nbsp; &nbsp;
-													<button class="btn" type="reset">
-														<i class="icon-undo bigger-110"></i>
-														重置
-													</button>
-												</div>
-											</div>
-
-										</form>
-										
-									</div>
-								</div>
-
-							</div><!-- /.col -->
-						</div><!-- /.row -->
-					</div><!-- /.page-content -->
-
-				</div>
-
-				<div id="user_add" class="tab-pane">
-					<div class="page-content">
-
-						<div class="row">
-							<div class="col-xs-12">
-								<!-- PAGE CONTENT BEGINS -->
-
-								<form class="form-horizontal" role="form" name="user_add" method="post" action="{:U('User/user_runadd')}">
+								<form class="form-horizontal form_user_add" name="user_add" method="post" action="{:U('User/user_runadd')}">
 
 									<div class="form-group">
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 所属用户组 </label>
 
 										<div class="col-sm-9">
-											<select name="member_list_groupid"  class="col-sm-4 selector" required>
+											<select name="admin_group_id"  class="col-sm-4 selector" required>
 												<option value="">请选择所属用户组</option>
-													<option value="{$v.member_group_id}">超级管理员</option>
+												<volist name="roles" id="v">
+												<option value="{$v.id}">{$v.title}</option>
+												</volist>
 											</select>
 										</div>
 									</div>
@@ -168,10 +54,10 @@
 									<div class="space-4"></div>
 
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 登录用户名 </label>
+										<label class="col-sm-3 control-label no-padding-right" for="admin_name"> 登录用户名 </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入登录用户名" class="col-xs-10 col-sm-5" required />
+											<input name="admin_name" type="text" id="admin_name" placeholder="输入登录用户名" class="col-xs-10 col-sm-5" required />
 											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，用户名必须是以字母开头，数字、符号组合</span>
 										</div>
 									</div>
@@ -179,21 +65,21 @@
 									<div class="space-4"></div>
 
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 登入密码 </label>
+										<label class="col-sm-3 control-label no-padding-right" for="admin_pass"> 登入密码 </label>
 
 										<div class="col-sm-9">
-											<input type="password" id="form-field-2" placeholder="输入登入密码" class="col-xs-10 col-sm-5" />
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须大于6位，小于15位</span>
+											<input name="admin_pass" type="password" id="admin_pass" placeholder="输入登入密码" class="col-xs-10 col-sm-5" required />
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须字母开头，大于6位，小于15位</span>
 										</div>
 									</div>
 
 									<div class="space-4"></div>
 
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户邮箱 </label>
+										<label class="col-sm-3 control-label no-padding-right" for="admin_email"> 用户邮箱 </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入用户邮箱" class="col-xs-10 col-sm-5" />
+											<input name="admin_email" type="email" id="admin_email" placeholder="输入用户邮箱" class="col-xs-10 col-sm-5" required />
 											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于密码找回，请认真填写</span>
 										</div>
 									</div>
@@ -201,10 +87,10 @@
 									<div class="space-4"></div>
 
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 手机号码 </label>
+										<label class="col-sm-3 control-label no-padding-right" for="admin_mobile"> 手机号码 </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入手机号码" class="col-xs-10 col-sm-5" />
+											<input name="admin_mobile" type="number" id="admin_mobile" placeholder="输入手机号码" class="col-xs-10 col-sm-5" required />
 											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>只能填写数字</span>
 										</div>
 									</div>
@@ -212,10 +98,10 @@
 									<div class="space-4"></div>
 
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 用户昵称 </label>
+										<label class="col-sm-3 control-label no-padding-right" for="admin_nickname"> 用户昵称 </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="输入用户昵称" class="col-xs-10 col-sm-5" />
+											<input name="admin_nickname" type="text" id="admin_nickname" placeholder="输入用户昵称" class="col-xs-10 col-sm-5" required />
 											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>用于发布信息所有人，且在前端显示</span>
 										</div>
 									</div>
@@ -223,16 +109,18 @@
 									<div class="space-4"></div>
 
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 是否审核 </label>
+										<label class="col-sm-3 control-label no-padding-right" for="admin_status"> 状态 </label>
 										<div class="col-sm-9" style="padding-top:5px;">
-											<input name="member_group_open" id="member_group_open" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
-											<span class="lbl">&nbsp;&nbsp;默认无需审核</span>
+											<input name="admin_status" id="admin_status" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" checked="checked" />
+											<span class="lbl">&nbsp;&nbsp;默认开启</span>
 										</div>
 									</div>
 
+									<div class="space-4"></div>
+
 									<div class="clearfix form-actions">
 										<div class="col-md-offset-3 col-md-9">
-											<button class="btn btn-info" type="button">
+											<button class="btn btn-info" type="submit">
 												<i class="icon-ok bigger-110"></i>
 												确定
 											</button>
@@ -246,30 +134,14 @@
 									</div>
 
 								</form>
-								
+
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 					</div><!-- /.page-content -->
 
 				</div>
-
-
 			</div>
 		</div>
 	</div><!-- /span -->
 
-</block>
-
-<block name="scripts">
-
-	<!-- page specific plugin scripts -->
-
-	<script src="__JS__/jquery.dataTables.min.js"></script>
-	<script src="__JS__/jquery.dataTables.bootstrap.js"></script>
-
-	<!-- inline scripts related to this page -->
-
-	<script type="text/javascript">
-
-	</script>
 </block>

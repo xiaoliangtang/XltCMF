@@ -1,0 +1,161 @@
+<extend name="Public:base" />
+
+<block name="css">
+	<link rel="stylesheet" href="__PLUGINS__/ztree/css/zTreeStyle/zTreeStyle.css" type="text/css">
+</block>
+
+<block name="page-content">
+
+	<!--
+	<div class="page-header">
+		<h1>
+			Tables
+			<small>
+				<i class="icon-double-angle-right"></i>
+				Static &amp; Dynamic Tables
+			</small>
+		</h1>
+	</div>
+	--><!-- /.page-header -->
+
+
+	<div class="col-xs-12">
+		<div class="tabbable">
+			<ul class="nav nav-tabs padding-12 tab-color-blue background-blue" id="myTab4">
+				<li>
+					<a href="{:U('User/role')}">角色列表</a>
+				</li>
+
+				<li>
+					<a href="{:U('User/role_add')}">添加角色</a>
+				</li>
+
+				<li class="active">
+					<a href="{:U('User/role_access')}">权限分配</a>
+				</li>
+
+			</ul>
+
+			<div class="tab-content">
+				<div id="role_access" class="tab-pane in active">
+
+					<div class="page-content">
+
+						<div class="row">
+							<div class="col-xs-12">		
+										
+								<!-- PAGE CONTENT BEGINS -->
+
+								<form class="form-horizontal form_role_access" role="form" name="role_add" method="post">
+
+									<div class="form-group">
+
+										<div class="col-sm-9">
+											<ul id="treeAccess" class="ztree"></ul>
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<a class="btn btn-info" type="submit" id="btn_role_add" href="{:U('User/role_runaccess',array('id'=>$id))}">
+												<i class="icon-ok bigger-110"></i>
+												确定
+											</a>
+
+											&nbsp; &nbsp; &nbsp;
+											<a class="btn" type="reset">
+												<i class="icon-undo bigger-110"></i>
+												重置
+											</a>
+										</div>
+									</div>
+
+								</form>
+
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+
+				</div>
+
+			</div>
+		</div>
+	</div><!-- /span -->
+
+</block>
+
+<block name="scripts">
+
+	<!-- page specific plugin scripts -->
+
+	<script src="__ADMIN__/js/jquery.dataTables.min.js"></script>
+	<script src="__ADMIN__/js/jquery.dataTables.bootstrap.js"></script>
+	<script type="text/javascript" src="__PLUGINS__/ztree/js/jquery.ztree.core.js"></script>
+	<script type="text/javascript" src="__PLUGINS__/ztree/js/jquery.ztree.excheck.js"></script>
+
+	<!-- inline scripts related to this page -->
+	<script type="text/javascript">
+		// 权限树
+		var setting = {
+			check: {
+				enable: true
+			},
+			data: {
+				simpleData: {
+					enable: true
+				}
+			},
+			view: {
+				showIcon: false
+			}
+		};
+
+		var zNodes = {$json_menus};
+
+		// var zNodes =[
+		// 	{ "id":1, "pId":0, "name":"随意勾选 1", "open":true},
+		// 	{ id:11, pId:1, name:"随意勾选 1-1", open:true},
+		// 	{ id:111, pId:11, name:"随意勾选 1-1-1"},
+		// 	{ id:112, pId:11, name:"随意勾选 1-1-2"},
+		// 	{ id:12, pId:1, name:"随意勾选 1-2", open:true},
+		// 	{ id:121, pId:12, name:"随意勾选 1-2-1"},
+		// 	{ id:122, pId:12, name:"随意勾选 1-2-2"},
+		// 	{ id:2, pId:0, name:"随意勾选 2", open:true},
+		// 	{ id:21, pId:2, name:"随意勾选 2-1"},
+		// 	{ id:22, pId:2, name:"随意勾选 2-2", open:true},
+		// 	{ id:221, pId:22, name:"随意勾选 2-2-1"},
+		// 	{ id:222, pId:22, name:"随意勾选 2-2-2"},
+		// 	{ id:23, pId:2, name:"随意勾选 2-3"}
+		// ];
+		
+		var code;
+		
+		function setCheck() {
+			var zTree = $.fn.zTree.getZTreeObj("treeAccess"),
+			py = $("#py").attr("checked")? "p":"",
+			sy = $("#sy").attr("checked")? "s":"",
+			pn = $("#pn").attr("checked")? "p":"",
+			sn = $("#sn").attr("checked")? "s":"",
+			type = { "Y" : "ps", "N" : "ps" };
+			zTree.setting.check.chkboxType = type;
+			//showCode('setting.check.chkboxType = { "Y" : "ps", "N" : "ps" };');
+		}
+		function showCode(str) {
+			if (!code) code = $("#code");
+			code.empty();
+			code.append("<li>"+str+"</li>");
+		}
+		
+		$(document).ready(function(){
+			$.fn.zTree.init($("#treeAccess"), setting, zNodes);
+			setCheck();
+			$("#py").bind("change", setCheck);
+			$("#sy").bind("change", setCheck);
+			$("#pn").bind("change", setCheck);
+			$("#sn").bind("change", setCheck);
+		});
+	</script>
+
+</block>

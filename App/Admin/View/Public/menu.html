@@ -38,6 +38,51 @@
 					</div><!-- #sidebar-shortcuts -->
 
 					<ul class="nav nav-list">
+
+					<volist name="menus_tree" id="v">
+						<li class="<if condition="(count($menu_parents) egt 1) AND ($menu_parents[0]['id'] eq $v['id'])">open active</if>">
+							<a href="{$v.url}" class="dropdown-toggle">
+								<i class="{$v.css}"></i>
+								<span class="menu-text"> {$v.title} </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<if condition="!empty($v['child'])">
+							<ul class="submenu">
+
+								<volist name="v['child']" id="v2">
+								<li class="<if condition="(count($menu_parents) egt 2) AND ($menu_parents[1]['id'] eq $v2['id'])">open active</if>">
+									<a href="{$v2.url}" class="dropdown-toggle">
+										<i class="icon-double-angle-right"></i>
+										{$v2.title}
+										<b class="arrow icon-angle-down"></b>
+									</a>
+
+									<if condition="!empty($v2['child'])">
+									<ul class="submenu">
+
+										<volist name="v2['child']" id="v3">
+										<li class="<if condition="(count($menu_parents) egt 3) AND ($menu_parents[2]['id'] eq $v3['id'])">active</if>">
+											<a href="{$v3.url}">
+												<i class="{$v3.css}"></i>
+												{$v3.title}
+											</a>
+										</li>
+										</volist>
+
+									</ul>
+									</if>
+								</li>
+								</volist>
+
+							</ul>
+							</if>
+						</li>
+					</volist>
+
+
+						<!--
 						<li class="active">
 							<a href="index.html">
 								<i class="icon-dashboard"></i>
@@ -161,6 +206,7 @@
 								</li>
 							</ul>
 						</li>
+						-->
 
 					</ul><!-- /.nav-list -->
 

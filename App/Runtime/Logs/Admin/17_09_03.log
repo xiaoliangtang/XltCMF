@@ -46,3 +46,687 @@ INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.002022s ]
 
+[ 2017-09-03T21:57:46+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+
+[ 2017-09-03T21:58:35+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+
+[ 2017-09-03T21:59:51+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-09-03T22:00:42+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-09-03T22:00:47+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+
+[ 2017-09-03T22:05:19+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+
+[ 2017-09-03T22:05:20+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+
+[ 2017-09-03T22:05:21+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-09-03T22:06:17+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+
+[ 2017-09-03T22:06:21+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+
+[ 2017-09-03T22:06:22+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-09-03T22:06:24+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+
+[ 2017-09-03T22:06:25+08:00 ] 127.0.0.1 /index.php/Admin/Menu/menu_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-09-03T22:06:27+08:00 ] 127.0.0.1 /index.php/Admin/Menu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+
+[ 2017-09-03T22:06:31+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+
+[ 2017-09-03T22:06:33+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+
+[ 2017-09-03T22:07:27+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+
+[ 2017-09-03T22:08:04+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-09-03T22:19:20+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+
+[ 2017-09-03T22:19:41+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-09-03T22:20:05+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+
+[ 2017-09-03T22:21:07+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+
+[ 2017-09-03T22:21:09+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+
+[ 2017-09-03T22:21:13+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+
+[ 2017-09-03T22:22:10+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-09-03T22:33:05+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-09-03T22:33:28+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+
+[ 2017-09-03T22:33:31+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+
+[ 2017-09-03T22:34:37+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-09-03T22:50:36+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-09-03T22:50:39+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-09-03T22:50:41+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-09-03T22:50:42+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+
+[ 2017-09-03T22:54:40+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+
+[ 2017-09-03T22:54:41+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+
+[ 2017-09-03T22:54:49+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001830s ]
+
+[ 2017-09-03T22:54:50+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-09-03T22:55:02+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-09-03T22:55:03+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-09-03T22:55:44+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-09-03T22:55:45+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+
+[ 2017-09-03T22:56:25+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+
+[ 2017-09-03T22:56:26+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-09-03T22:56:27+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-09-03T22:57:34+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002188s ]
+
+[ 2017-09-03T22:57:35+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-09-03T22:58:16+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0032s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','f2d93722ef99f2a600a0f8b0068616be','zMrAKh','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 22:58:16')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','f2d93722ef99f2a600a0f8b0068616be','zMrAKh','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 22:58:16')
+
+[ 2017-09-03T22:58:26+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+
+[ 2017-09-03T22:58:41+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+
+[ 2017-09-03T23:00:23+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0025s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','8bc23b288bc06c541a2ec7c2afe7828b','ApoBKS','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:00:23')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','8bc23b288bc06c541a2ec7c2afe7828b','ApoBKS','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:00:23')
+
+[ 2017-09-03T23:00:53+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-09-03T23:00:55+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+
+[ 2017-09-03T23:00:56+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+
+[ 2017-09-03T23:01:24+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0027s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','c0d65e3032b826106e128840fe96b8b8','vYCATz','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:01:24')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','c0d65e3032b826106e128840fe96b8b8','vYCATz','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:01:24')
+
+[ 2017-09-03T23:01:33+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-09-03T23:05:37+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010036s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0035s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','05b193a09c9d79878d7e20c0369c16e2','lYrwPQ','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:37')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','05b193a09c9d79878d7e20c0369c16e2','lYrwPQ','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:37')
+
+[ 2017-09-03T23:05:38+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007289s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0026s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','1a3e6a539bb64db99eabbc01a28a93c0','aZkDvs','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:38')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','1a3e6a539bb64db99eabbc01a28a93c0','aZkDvs','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:38')
+
+[ 2017-09-03T23:05:39+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0032s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','8f8a57fb329b0db56878f52a00fd365f','nYqCvo','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:39')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','8f8a57fb329b0db56878f52a00fd365f','nYqCvo','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:39')
+
+[ 2017-09-03T23:05:40+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003585s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0026s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','2da477fd8a959cc894351eeeeb9f8eae','BXjzys','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:40')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','2da477fd8a959cc894351eeeeb9f8eae','BXjzys','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:40')
+
+[ 2017-09-03T23:05:41+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0028s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','1525e824615af8b2d394621aa2f7201e','gMWNli','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:41')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','1525e824615af8b2d394621aa2f7201e','gMWNli','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:41')
+
+[ 2017-09-03T23:05:41+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003094s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0018s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','6bd0ef8366b6beb3c172f2c3376c1b51','YlXJwp','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:41')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','6bd0ef8366b6beb3c172f2c3376c1b51','YlXJwp','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:41')
+
+[ 2017-09-03T23:05:43+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0018s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','9bab4915714527cf2bd6ecf3b5aa2304','fLlKXi','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:43')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','9bab4915714527cf2bd6ecf3b5aa2304','fLlKXi','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:05:43')
+
+[ 2017-09-03T23:07:07+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0019s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','eef2fee2fe8ffbf576b0152ae0cc3982','jiuNfr','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:07:07')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','eef2fee2fe8ffbf576b0152ae0cc3982','jiuNfr','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:07:07')
+
+[ 2017-09-03T23:07:10+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+
+[ 2017-09-03T23:07:30+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004078s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0031s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','f3a6dcaa9f30cb11764c8c7026559f53','aipZnb','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:07:30')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','f3a6dcaa9f30cb11764c8c7026559f53','aipZnb','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:07:30')
+
+[ 2017-09-03T23:07:38+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+
+[ 2017-09-03T23:08:44+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+
+[ 2017-09-03T23:08:50+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+
+[ 2017-09-03T23:08:58+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+
+[ 2017-09-03T23:09:18+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002772s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0026s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','3e1bf3d8dddd5052e79871f5cbe0066f','aGnHSp','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:18')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','3e1bf3d8dddd5052e79871f5cbe0066f','aGnHSp','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:18')
+
+[ 2017-09-03T23:09:20+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003799s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0027s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','e3e1a36e8dfffab11247fcb1172a23c0','FunpNP','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:20')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','e3e1a36e8dfffab11247fcb1172a23c0','FunpNP','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:20')
+
+[ 2017-09-03T23:09:54+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0028s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','56a9aefef9d58cb529b2f89eee40c629','DbqPvA','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:54')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','56a9aefef9d58cb529b2f89eee40c629','DbqPvA','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:54')
+
+[ 2017-09-03T23:09:55+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000263s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0024s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','b655c56cbf2c4c38362777bf348ef9f4','HBWMXe','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:55')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','b655c56cbf2c4c38362777bf348ef9f4','HBWMXe','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:55')
+
+[ 2017-09-03T23:09:56+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0018s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','1d1daf2c5aadbb4775ee4fd85cef4a69','XhRZPU','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:56')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','1d1daf2c5aadbb4775ee4fd85cef4a69','XhRZPU','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:56')
+
+[ 2017-09-03T23:09:56+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0016s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','a9a65c05252b9680ddfaea9ebae5e5dd','UXOCWi','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:56')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','a9a65c05252b9680ddfaea9ebae5e5dd','UXOCWi','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:56')
+
+[ 2017-09-03T23:09:56+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0024s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','6bebefcd28c301f25c7300c72f84d83b','NfjYak','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:56')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','6bebefcd28c301f25c7300c72f84d83b','NfjYak','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:56')
+
+[ 2017-09-03T23:09:57+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002880s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0019s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','d4779e4a69be4ed1cfed0692bd484131','LBCWSi','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:57')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','d4779e4a69be4ed1cfed0692bd484131','LBCWSi','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:09:57')
+
+[ 2017-09-03T23:09:59+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-03T23:10:28+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0025s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','17a02b2fcc9df8d670c4189a32e1a121','YPvKZa','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:10:28')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','17a02b2fcc9df8d670c4189a32e1a121','YPvKZa','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:10:28')
+
+[ 2017-09-03T23:10:35+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+
+[ 2017-09-03T23:18:16+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002512s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0026s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','3a853939f116f47f2ac98c90a28d6e5f','cPMEsZ','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:18:16')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','3a853939f116f47f2ac98c90a28d6e5f','cPMEsZ','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:18:16')
+
+[ 2017-09-03T23:20:56+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0019s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','ce2b3509f35885db5daec76736712d32','RfSzjs','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:20:56')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','ce2b3509f35885db5daec76736712d32','RfSzjs','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:20:56')
+
+[ 2017-09-03T23:20:57+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006801s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0014s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','c449df16456937b9f0d6af0f6184c8ca','RYOkLx','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:20:57')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','c449df16456937b9f0d6af0f6184c8ca','RYOkLx','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:20:57')
+
+[ 2017-09-03T23:21:04+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+
+[ 2017-09-03T23:21:24+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002506s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0021s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','7b762cfc30034884ee725ebb7254110a','hIJSOq','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:21:24')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','7b762cfc30034884ee725ebb7254110a','hIJSOq','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:21:24')
+
+[ 2017-09-03T23:21:26+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0018s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','7faa0bdc0ef70ee6892a8795674c0b8e','yRkseX','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:21:26')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','7faa0bdc0ef70ee6892a8795674c0b8e','yRkseX','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:21:26')
+
+[ 2017-09-03T23:21:27+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+
+[ 2017-09-03T23:21:34+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-09-03T23:22:53+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-09-03T23:23:04+08:00 ] 127.0.0.1 /index.php/Admin/User/user_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001507s ]
+
+[ 2017-09-03T23:23:19+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0016s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','f8f63b47e6d99a5f086851ac3dbe44a4','dJkFoK','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:23:19')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','f8f63b47e6d99a5f086851ac3dbe44a4','dJkFoK','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:23:19')
+
+[ 2017-09-03T23:23:21+08:00 ] 127.0.0.1 /index.php/Admin/User/user_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0017s ]
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','a2c7ad4949914cf8ff9a0665ee81f38a','WOFaVI','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:23:21')
+ERR: 1364:Field 'admin_hits' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `xlt_admin` (`admin_name`,`admin_pass`,`admin_encryption`,`admin_email`,`admin_mobile`,`admin_nickname`,`admin_status`,`admin_create_time`) VALUES ('xiaoliangtang','a2c7ad4949914cf8ff9a0665ee81f38a','WOFaVI','xiaoliangtang@qq.com','18122714691','粤神','1','2017-09-03 23:23:21')
+

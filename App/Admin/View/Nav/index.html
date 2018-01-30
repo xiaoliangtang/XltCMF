@@ -1,0 +1,195 @@
+<extend name="Public:base" />
+<block name="page-content">
+
+	<!--
+	<div class="page-header">
+		<h1>
+			Tables
+			<small>
+				<i class="icon-double-angle-right"></i>
+				Static &amp; Dynamic Tables
+			</small>
+		</h1>
+	</div>
+	--><!-- /.page-header -->
+
+	<div class="col-xs-12">
+		<div class="tabbable">
+			<ul class="nav nav-tabs padding-12 tab-color-blue background-blue" id="myTab4">
+				<li class="active">
+					<a href="{:U('Nav/index')}">菜单列表</a>
+				</li>
+
+				<li>
+					<a href="{:U('Nav/nav_add')}">添加菜单</a>
+				</li>
+
+			</ul>
+
+			<div class="tab-content">
+				<div id="menu_list" class="tab-pane in active">
+
+					<div class="page-content">
+
+						<div class="row">
+							<div class="col-xs-12">		
+										
+								<!-- PAGE CONTENT BEGINS -->
+
+								<div class="row">
+									<div class="col-xs-12">
+
+										<div class="table-responsive">
+											<table id="sample-table-2" class="table table-striped table-bordered table-hover">
+												<thead>
+													<tr>
+														<th class="center">
+															<label>
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</th>
+														<th>ID</th>
+														<th>排序</th>
+														<th>展开</th>
+														<th>菜单名称</th>
+														<th>控制器/方法</th>
+														<th>状态</th>
+														<th>菜单分类</th>
+														<th>操作</th>
+													</tr>
+												</thead>
+
+												<tbody>
+
+												<volist name="navs" id="v">
+													<tr id="{$pid}-{$v.id}">
+														<td class="center">
+															<label>
+																<input type="checkbox" class="ace"
+																 name="id" value="{$v.id}" />
+																<span class="lbl"></span>
+															</label>
+														</td>
+
+														<td>{$v.id}</td>
+
+														<td>
+															<label>
+																<input type="text" name="{$v.id}" value="{$v.listorder}" class="xltcmf-input-sort">
+															</label>
+														</td>
+
+														<td><a data-id="{$v.id}" data-level="{$v.level}" href="{:U('Nav/index')}" style="cursor:pointer;" class="ajax_menu_index"><span class="icon-plus blue"></span></a></td>
+
+														<td>{$v.label}</td>
+
+														<td>{$v.href}</td>
+
+														<td>
+															<if condition="$v['status'] eq 1">
+																<a class="red display-btn" href="{:U('Nav/nav_status')}" data-id="{$v.id}" title="已显示">
+																	<div id="zt{$v.id}"><button class="btn btn-minier btn-yellow">显示</button></div>
+																</a>
+																<else/>
+																<a class="red display-btn" href="{:U('Nav/nav_status')}" data-id="{$v.id}" title="已隐藏">
+																	<div id="zt{$v.id}"><button class="btn btn-minier btn-danger">隐藏</button></div>
+																</a>
+															</if>
+														</td>
+														<td class="hidden-480">{$v.name}</td>
+
+														<td>
+															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
+																<a class="blue" href="{:U('Nav/nav_add',array('pid'=>$v['id']))}">
+																	<i class="icon-plus-sign bigger-130"></i>
+																</a>
+
+																<a class="green" href="{:U('Nav/nav_edit',array('id'=>$v['id']))}">
+																	<i class="icon-pencil bigger-130"></i>
+																</a>
+
+																<a class="red confirm-nav-delete" href="{:U('Nav/nav_delete',array('id'=>$v['id']))}" data-info="你确定要删除吗？" title="删除">
+																	<i class="icon-trash bigger-130"></i>
+																</a>
+															</div>
+
+														</td>
+													</tr>
+												</volist>
+
+												<tr>
+													<td colspan="9" align="left">
+														<a class="btn btn-sm btn-primary" id="btnsort" href="{:U('Nav/nav_sort')}">排序</a>
+													</td>
+												</tr>
+
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+
+								<!-- 分页 -->
+								<div class="modal-footer no-margin-top">
+
+									<ul class="pagination pull-right no-margin">
+										<li class="prev disabled">
+											<a href="#">
+												<i class="icon-double-angle-left"></i>
+											</a>
+										</li>
+
+										<li class="active">
+											<a href="#">1</a>
+										</li>
+
+										<li>
+											<a href="#">2</a>
+										</li>
+
+										<li>
+											<a href="#">3</a>
+										</li>
+
+										<li class="next">
+											<a href="#">
+												<i class="icon-double-angle-right"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<!-- 分页 -->
+
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+
+				</div>
+
+			</div>
+
+
+			</div>
+		</div>
+	</div><!-- /span -->
+
+
+</block>
+
+<block name="scripts">
+
+	<script type="text/javascript">
+		//$("#form_menu_add").validate();
+	</script>
+	<!-- page specific plugin scripts -->
+
+	<script src="__JS__/jquery.dataTables.min.js"></script>
+	<script src="__JS__/jquery.dataTables.bootstrap.js"></script>
+
+	<!-- inline scripts related to this page -->
+
+	<script type="text/javascript">
+
+	</script>
+</block>

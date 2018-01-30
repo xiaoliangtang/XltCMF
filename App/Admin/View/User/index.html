@@ -70,7 +70,7 @@
 															</label>
 														</th>
 														<th>登录用户名</th>
-														<th>真实姓名</th>
+														<th>昵称</th>
 														<th>用户组</th>
 														<th>邮箱</th>
 														<th>电话号码</th>
@@ -82,29 +82,31 @@
 												</thead>
 
 												<tbody>
+
+												<volist name="admin_list" id="v">
 													<tr>
 														<td class="center">
 															<label>
-																<input type="checkbox" class="ace" />
+																<input type="checkbox" class="ace" value="{$v.id}" />
 																<span class="lbl"></span>
 															</label>
 														</td>
 
-														<td>admin</td>
-														<td>$45</td>
-														<td>3,330</td>
-														<td>Feb 12</td>
-														<td>Feb 12</td>
-														<td>Feb 12</td>
-														<td>Feb 12</td>
+														<td>{$v.admin_name}</td>
+														<td>{$v.admin_nickname}</td>
+														<td>{$v.title}</td>
+														<td>{$v.admin_email}</td>
+														<td>{$v.admin_mobile}</td>
+														<td>{$v.admin_last_login_ip}</td>
+														<td>{$v.admin_hits}</td>
 
 														<td>
-															<if condition="$v['status'] eq 1">
-																<a class="red display-btn" href="{:U('User/user_status')}" data-id="{$v.id}" title="已开启">
+															<if condition="$v['admin_status'] eq 1">
+																<a class="red admin-status-btn" href="{:U('User/user_status')}" data-id="{$v.id}" title="已开启">
 																	<div id="zt{$v.id}"><button class="btn btn-minier btn-yellow">开启</button></div>
 																</a>
 																<else/>
-																<a class="red display-btn" href="{:U('Menu/user_status')}" data-id="{$v.id}" title="已禁用">
+																<a class="red admin-status-btn" href="{:U('User/user_status')}" data-id="{$v.id}" title="已禁用">
 																	<div id="zt{$v.id}"><button class="btn btn-minier btn-danger">禁用</button></div>
 																</a>
 															</if>
@@ -112,55 +114,21 @@
 
 														<td>
 															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="{:U('Menu/menu_add',array('pid'=>$v['id']))}">
-																	<i class="icon-plus-sign bigger-130"></i>
-																</a>
 
-																<a class="green" href="{:U('Menu/menu_edit',array('id'=>$v['id']))}">
+																<a class="green" href="{:U('User/user_edit',array('id'=>$v['id']))}">
 																	<i class="icon-pencil bigger-130"></i>
 																</a>
 
-																<a class="red confirm-menu-delete" href="{:U('Menu/menu_delete',array('id'=>$v['id']))}" data-info="你确定要删除吗？" title="删除">
+																<a class="red confirm-user-delete" href="{:U('User/user_delete',array('id'=>$v['id']))}" data-info="你确定要删除吗？" title="删除">
 																	<i class="icon-trash bigger-130"></i>
 																</a>
 															</div>
 
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
 														</td>
 														
 													</tr>
+												</volist>
+
 												</tbody>
 											</table>
 										</div>

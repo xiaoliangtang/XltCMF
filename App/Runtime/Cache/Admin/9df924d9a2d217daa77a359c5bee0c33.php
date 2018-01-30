@@ -9,11 +9,11 @@
 		<meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- basic styles -->
-		<link href="/Public/ace/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="/Public/ace/css/font-awesome.min.css" />
+		<link href="/Public/admin/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="/Public/admin/css/font-awesome.min.css" />
 
 		<!--[if IE 7]>
-		  <link rel="stylesheet" href="/Public/ace/css/font-awesome-ie7.min.css" />
+		  <link rel="stylesheet" href="/Public/admin/css/font-awesome-ie7.min.css" />
 		<![endif]-->
 
 		<!-- page specific plugin styles -->
@@ -24,30 +24,30 @@
 
 		<!-- ace styles -->
 
-		<link rel="stylesheet" href="/Public/ace/css/ace.min.css" />
-		<link rel="stylesheet" href="/Public/ace/css/ace-rtl.min.css" />
-		<link rel="stylesheet" href="/Public/ace/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="/Public/admin/css/ace.min.css" />
+		<link rel="stylesheet" href="/Public/admin/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="/Public/admin/css/ace-skins.min.css" />
 
 		<!-- xltcmf styles -->
-		<link rel="stylesheet" href="/Public/xltcmf/xltcmf.css" />
+		<link rel="stylesheet" href="/Public/plugins/xltcmf/xltcmf.css" />
 
 		
 
 		<!--[if lte IE 8]>
-		  <link rel="stylesheet" href="/Public/ace/css/ace-ie.min.css" />
+		  <link rel="stylesheet" href="/Public/admin/css/ace-ie.min.css" />
 		<![endif]-->
 
 		<!-- inline styles related to this page -->
 
 		<!-- ace settings handler -->
 
-		<script src="/Public/ace/js/ace-extra.min.js"></script>
+		<script src="/Public/admin/js/ace-extra.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
 		<!--[if lt IE 9]>
-		<script src="/Public/ace/js/html5shiv.js"></script>
-		<script src="/Public/ace/js/respond.min.js"></script>
+		<script src="/Public/admin/js/html5shiv.js"></script>
+		<script src="/Public/admin/js/respond.min.js"></script>
 		<![endif]-->
 	</head>
 	<!-- 头部 -->
@@ -223,7 +223,7 @@
 
 								<li>
 									<a href="#">
-										<img src="/Public/ace/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
+										<img src="__AVATAR__/avatar.png" class="msg-photo" alt="Alex's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Alex:</span>
@@ -240,7 +240,7 @@
 
 								<li>
 									<a href="#">
-										<img src="/Public/ace/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+										<img src="__AVATAR__/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Susan:</span>
@@ -257,7 +257,7 @@
 
 								<li>
 									<a href="#">
-										<img src="/Public/ace/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
+										<img src="__AVATAR__/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Bob:</span>
@@ -283,10 +283,14 @@
 
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-								<img class="nav-user-photo" src="/Public/ace/avatars/user.jpg" alt="Jason's Photo" />
+
+							<?php if(!empty($admin_info['admin_avatar'])): ?><img class="nav-user-photo" src="<?php echo ($admin_info['admin_avatar']); ?>" alt="<?php echo ($admin_info['admin_nickname']); ?>" />
+							<?php else: ?>
+								<img class="nav-user-photo" src="__AVATAR__/user.jpg" alt="<?php echo ($admin_info['admin_nickname']); ?>" /><?php endif; ?>
+
 								<span class="user-info">
 									<small>欢迎光临,</small>
-									Jason
+									<?php echo ($admin_info['admin_nickname']); ?>
 								</span>
 
 								<i class="icon-caret-down"></i>
@@ -294,23 +298,30 @@
 
 							<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
 								<li>
-									<a href="#">
+									<a href="<?php echo U('User/user_setting');?>">
 										<i class="icon-cog"></i>
 										设置
 									</a>
 								</li>
 
 								<li>
-									<a href="#">
+									<a href="<?php echo U('User/user_profile');?>">
 										<i class="icon-user"></i>
-										个人资料
+										个人中心
+									</a>
+								</li>
+
+								<li>
+									<a class="clearCache" href="<?php echo U('System/clear');?>">
+										<i class="icon-cog"></i>
+										清空缓存
 									</a>
 								</li>
 
 								<li class="divider"></li>
 
 								<li>
-									<a href="#">
+									<a href="<?php echo U('Login/admin_runloginout');?>">
 										<i class="icon-off"></i>
 										退出
 									</a>
@@ -371,6 +382,41 @@
 					</div><!-- #sidebar-shortcuts -->
 
 					<ul class="nav nav-list">
+
+					<?php if(is_array($menus_tree)): $i = 0; $__LIST__ = $menus_tree;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li class="<?php if((count($menu_parents) >= 1) AND ($menu_parents[0]['id'] == $v['id'])): ?>open active<?php endif; ?>">
+							<a href="<?php echo ($v["url"]); ?>" class="dropdown-toggle">
+								<i class="<?php echo ($v["css"]); ?>"></i>
+								<span class="menu-text"> <?php echo ($v["title"]); ?> </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<?php if(!empty($v['child'])): ?><ul class="submenu">
+
+								<?php if(is_array($v['child'])): $i = 0; $__LIST__ = $v['child'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v2): $mod = ($i % 2 );++$i;?><li class="<?php if((count($menu_parents) >= 2) AND ($menu_parents[1]['id'] == $v2['id'])): ?>open active<?php endif; ?>">
+									<a href="<?php echo ($v2["url"]); ?>" class="dropdown-toggle">
+										<i class="icon-double-angle-right"></i>
+										<?php echo ($v2["title"]); ?>
+										<b class="arrow icon-angle-down"></b>
+									</a>
+
+									<?php if(!empty($v2['child'])): ?><ul class="submenu">
+
+										<?php if(is_array($v2['child'])): $i = 0; $__LIST__ = $v2['child'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v3): $mod = ($i % 2 );++$i;?><li class="<?php if((count($menu_parents) >= 3) AND ($menu_parents[2]['id'] == $v3['id'])): ?>active<?php endif; ?>">
+											<a href="<?php echo ($v3["url"]); ?>">
+												<i class="<?php echo ($v3["css"]); ?>"></i>
+												<?php echo ($v3["title"]); ?>
+											</a>
+										</li><?php endforeach; endif; else: echo "" ;endif; ?>
+
+									</ul><?php endif; ?>
+								</li><?php endforeach; endif; else: echo "" ;endif; ?>
+
+							</ul><?php endif; ?>
+						</li><?php endforeach; endif; else: echo "" ;endif; ?>
+
+
+						<!--
 						<li class="active">
 							<a href="index.html">
 								<i class="icon-dashboard"></i>
@@ -494,6 +540,7 @@
 								</li>
 							</ul>
 						</li>
+						-->
 
 					</ul><!-- /.nav-list -->
 
@@ -510,42 +557,33 @@
 				<div class="main-content">
 					
 					<!-- 面包屑导航 -->
-										<div class="breadcrumbs" id="breadcrumbs">
-						<script type="text/javascript">
-							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
-						</script>
+					<div class="breadcrumbs" id="breadcrumbs">
+	<script type="text/javascript">
+		try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+	</script>
 
-						<ul class="breadcrumb">
-							<li>
-								<i class="icon-home home-icon"></i>
-								<a href="#">首页</a>
-							</li>
-							<li class="active">控制台</li>
-						</ul><!-- .breadcrumb -->
+	<ul class="breadcrumb">
+		<li>
+			<i class="icon-home home-icon"></i>
+			<a href="<?php echo U('Index/index');?>">首页</a>
+		</li>
+		<?php if(is_array($menu_parents)): $i = 0; $__LIST__ = $menu_parents;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li <?php if($vo['id'] == $cur_id): ?>class="active"><?php endif; ?><a href="<?php echo U($vo['name']);?>"><?php echo ($vo["title"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+	</ul><!-- .breadcrumb -->
 
-						<div class="nav-search" id="nav-search">
-							<form class="form-search">
-								<span class="input-icon">
-									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-									<i class="icon-search nav-search-icon"></i>
-								</span>
-							</form>
-						</div><!-- #nav-search -->
-					</div>
+	<div class="nav-search" id="nav-search">
+		<form class="form-search">
+			<span class="input-icon">
+				<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+				<i class="icon-search nav-search-icon"></i>
+			</span>
+		</form>
+	</div><!-- #nav-search -->
+</div>
 					<!-- 面包屑导航 -->
 
 					<!-- 右侧下主要内容开始 -->
 					
 	<div class="page-content">
-		<div class="page-header">
-			<h1>
-				控制台
-				<small>
-					<i class="icon-double-angle-right"></i>
-					 查看
-				</small>
-			</h1>
-		</div><!-- /.page-header -->
 
 		<div class="row">
 			<div class="col-xs-12">
@@ -560,10 +598,10 @@
 
 					欢迎使用
 					<strong class="green">
-						Ace后台管理系统
-						<small>(v1.2)</small>
+						XltCMF后台管理系统
+						<small>(v1.0)</small>
 					</strong>
-					,轻量级好用的后台管理系统模版.	
+					,轻量级好用的CMF后台管理系统.	
 				</div>
 
 				<div class="row">
@@ -1064,7 +1102,7 @@
 											<div class="clearfix">
 												<div class="itemdiv memberdiv">
 													<div class="user">
-														<img alt="Bob Doe's avatar" src="assets/avatars/user.jpg" />
+														<img alt="Bob Doe's avatar" src="/Public/admin/avatars/user.jpg" />
 													</div>
 
 													<div class="body">
@@ -1344,7 +1382,7 @@
 											<div class="comments">
 												<div class="itemdiv commentdiv">
 													<div class="user">
-														<img alt="Bob Doe's Avatar" src="assets/avatars/avatar.png" />
+														<img alt="Bob Doe's Avatar" src="/Public/admin/avatars/avatar.png" />
 													</div>
 
 													<div class="body">
@@ -1535,7 +1573,7 @@
 									<div class="dialogs">
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="Alexa's Avatar" src="assets/avatars/avatar1.png" />
+												<img alt="Alexa's Avatar" src="/Public/admin/avatars/avatar1.png" />
 											</div>
 
 											<div class="body">
@@ -1559,7 +1597,7 @@
 
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="John's Avatar" src="assets/avatars/avatar.png" />
+												<img alt="John's Avatar" src="/Public/admin/avatars/avatar.png" />
 											</div>
 
 											<div class="body">
@@ -1583,7 +1621,7 @@
 
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="Bob's Avatar" src="assets/avatars/user.jpg" />
+												<img alt="Bob's Avatar" src="/Public/admin/avatars/user.jpg" />
 											</div>
 
 											<div class="body">
@@ -1608,7 +1646,7 @@
 
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="Jim's Avatar" src="assets/avatars/avatar4.png" />
+												<img alt="Jim's Avatar" src="/Public/admin/avatars/avatar4.png" />
 											</div>
 
 											<div class="body">
@@ -1632,7 +1670,7 @@
 
 										<div class="itemdiv dialogdiv">
 											<div class="user">
-												<img alt="Alexa's Avatar" src="assets/avatars/avatar1.png" />
+												<img alt="Alexa's Avatar" src="/Public/admin/avatars/avatar1.png" />
 											</div>
 
 											<div class="body">
@@ -1762,7 +1800,7 @@
 	<!--[if !IE]> -->
 
 	<script type="text/javascript">
-		window.jQuery || document.write("<script src='/Public/ace/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+		window.jQuery || document.write("<script src='/Public/admin/js/jquery-2.0.3.min.js'>"+"<"+"script>");
 	</script>
 
 	<!-- <![endif]-->
@@ -1776,10 +1814,10 @@
 	-->
 
 	<script type="text/javascript">
-		if("ontouchend" in document) document.write("<script src='/Public/ace/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+		if("ontouchend" in document) document.write("<script src='/Public/admin/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
 	</script>
-	<script src="/Public/ace/js/bootstrap.min.js"></script>
-	<script src="/Public/ace/js/typeahead-bs2.min.js"></script>
+	<script src="/Public/admin/js/bootstrap.min.js"></script>
+	<script src="/Public/admin/js/typeahead-bs2.min.js"></script>
 
 	<!-- page specific plugin scripts -->
 
@@ -1787,25 +1825,27 @@
 	  <script src="assets/js/excanvas.min.js"></script>
 	<![endif]-->
 
-	<script src="/Public/ace/js/jquery-ui-1.10.3.custom.min.js"></script>
-	<script src="/Public/ace/js/jquery.ui.touch-punch.min.js"></script>
-	<script src="/Public/ace/js/jquery.slimscroll.min.js"></script>
-	<script src="/Public/ace/js/jquery.easy-pie-chart.min.js"></script>
-	<script src="/Public/ace/js/jquery.sparkline.min.js"></script>
-	<script src="/Public/ace/js/flot/jquery.flot.min.js"></script>
-	<script src="/Public/ace/js/flot/jquery.flot.pie.min.js"></script>
-	<script src="/Public/ace/js/flot/jquery.flot.resize.min.js"></script>
+	<script src="/Public/admin/js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="/Public/admin/js/jquery.ui.touch-punch.min.js"></script>
+	<script src="/Public/admin/js/jquery.slimscroll.min.js"></script>
+	<script src="/Public/admin/js/jquery.easy-pie-chart.min.js"></script>
+	<script src="/Public/admin/js/jquery.sparkline.min.js"></script>
+	<script src="/Public/admin/js/flot/jquery.flot.min.js"></script>
+	<script src="/Public/admin/js/flot/jquery.flot.pie.min.js"></script>
+	<script src="/Public/admin/js/flot/jquery.flot.resize.min.js"></script>
 
 	<!-- ace scripts -->
 
-	<script src="/Public/ace/js/ace-elements.min.js"></script>
-	<script src="/Public/ace/js/ace.min.js"></script>
+	<script src="/Public/admin/js/ace-elements.min.js"></script>
+	<script src="/Public/admin/js/ace.min.js"></script>
 
 	<!-- jquery.form、layer、jquery.validation、xltcmf的js -->
-	<script src="/Public/others/jquery.form.js"></script>
-	<script src="/Public/layer/layer_zh-cn.js"></script>
-	<script src="/Public/others/jquery.validation.min.js"></script>
-	<script src="/Public/xltcmf/xltcmf.js"></script>
+	<script src="/Public/plugins/others/jquery.form.js"></script>
+	<!-- <script src="/Public/plugins/layer/layer_zh-cn.js"></script> -->
+	<script src="/Public/plugins/layui/layui.js"></script>
+	<script src="/Public/plugins/others/jquery.validation.min.js"></script>
+	<script src="/Public/plugins/others/maxlength.js"></script>
+	<script src="/Public/plugins/xltcmf/xltcmf.js"></script>
 
 		<!-- basic scripts -->
 

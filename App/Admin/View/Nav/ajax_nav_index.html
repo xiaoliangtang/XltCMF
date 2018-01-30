@@ -1,0 +1,55 @@
+<volist name="navs" id="v">
+	<tr id="{$pid}-{$v.id}">
+		<td class="center">
+			<label>
+				<input type="checkbox" class="ace"
+				 name="id" value="{$v.id}" />
+				<span class="lbl"></span>
+			</label>
+		</td>
+
+		<td>{$v.id}</td>
+
+		<td>
+			<label>
+				<input type="text" name="{$v.id}" value="{$v.listorder}" class="xltcmf-input-sort">
+			</label>
+		</td>
+
+		<td><a data-id="{$v.id}" data-level="{$v.level}" href="{:U('Nav/index')}" style="cursor:pointer;" class="ajax_menu_index"><span class="icon-plus blue"></span></a></td>
+
+		<td style='padding-left:<if condition="$v.leftpin neq 0">{$v.leftpin}px</if>'>{$v.lefthtml}{$v.label}</td>
+
+		<td>{$v.href}</td>
+
+		<td>
+			<if condition="$v['status'] eq 1">
+				<a class="red display-btn" href="{:U('Nav/nav_status')}" data-id="{$v.id}" title="已显示">
+					<div id="zt{$v.id}"><button class="btn btn-minier btn-yellow">显示</button></div>
+				</a>
+				<else/>
+				<a class="red display-btn" href="{:U('Nav/nav_status')}" data-id="{$v.id}" title="已隐藏">
+					<div id="zt{$v.id}"><button class="btn btn-minier btn-danger">隐藏</button></div>
+				</a>
+			</if>
+		</td>
+		<td class="hidden-480">{$v.name}</td>
+
+		<td>
+			<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
+				<a class="blue" href="{:U('Nav/nav_add',array('pid'=>$v['id']))}">
+					<i class="icon-plus-sign bigger-130"></i>
+				</a>
+
+				<a class="green" href="{:U('Nav/nav_edit',array('id'=>$v['id']))}">
+					<i class="icon-pencil bigger-130"></i>
+				</a>
+
+				<a class="red confirm-nav-delete" href="{:U('Nav/nav_delete',array('id'=>$v['id']))}" data-info="你确定要删除吗？" title="删除">
+					<i class="icon-trash bigger-130"></i>
+				</a>
+			</div>
+
+		</td>
+	</tr>
+</volist>

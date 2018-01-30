@@ -1,0 +1,433 @@
+[ 2017-09-13T19:00:32+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025064s ]
+
+[ 2017-09-13T19:00:32+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+
+[ 2017-09-13T19:00:49+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html?0.7023331090526093
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+
+[ 2017-09-13T19:00:55+08:00 ] 127.0.0.1 /index.php/Admin/Login/admin_runlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `xlt_admin` WHERE `admin_name` = 'xiaoliangtang' LIMIT 1   [ RunTime:0.0659s ]
+SQL: UPDATE `xlt_admin` SET `admin_hits`=admin_hits+1 WHERE `id` = '1' [ RunTime:0.0370s ]
+SQL: UPDATE `xlt_admin` SET `admin_last_login_ip`='127.0.0.1',`admin_last_login_time`='2017-09-13 19:00:55' WHERE `id` = '1' [ RunTime:0.0032s ]
+SQL: SELECT * FROM `xlt_member` WHERE `member_id` = null LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-09-13T19:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+
+[ 2017-09-13T19:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001637s ]
+
+[ 2017-09-13T19:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002535s ]
+
+[ 2017-09-13T19:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+
+[ 2017-09-13T19:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+
+[ 2017-09-13T19:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001637s ]
+
+[ 2017-09-13T19:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003236s ]
+
+[ 2017-09-13T19:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002591s ]
+
+[ 2017-09-13T19:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-09-13T19:01:09+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+
+[ 2017-09-13T19:01:39+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+
+[ 2017-09-13T19:03:25+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+
+[ 2017-09-13T19:03:39+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002011s ]
+
+[ 2017-09-13T19:03:39+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+
+[ 2017-09-13T19:03:40+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+
+[ 2017-09-13T19:03:54+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html?0.890022116932935
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Login/admin_runlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `xlt_admin` WHERE `admin_name` = 'xiaoliangtang' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `xlt_admin` SET `admin_hits`=admin_hits+1 WHERE `id` = '1' [ RunTime:0.0006s ]
+SQL: UPDATE `xlt_admin` SET `admin_last_login_ip`='127.0.0.1',`admin_last_login_time`='2017-09-13 19:04:00' WHERE `id` = '1' [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xlt_member` WHERE `member_id` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002077s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001807s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003126s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002052s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002423s ]
+
+[ 2017-09-13T19:04:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+
+[ 2017-09-13T19:04:05+08:00 ] 127.0.0.1 /index.php/Admin/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-09-13T19:04:06+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-09-13T19:04:46+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+
+[ 2017-09-13T19:07:07+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+
+[ 2017-09-13T19:07:32+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002165s ]
+
+[ 2017-09-13T19:08:33+08:00 ] 127.0.0.1 /index.php/Admin/Member/getRegion.html?pid=19&type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0018s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/getRegion' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `xlt_region` WHERE `pid` = 19 AND `type` = 2  [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002304s ]
+
+[ 2017-09-13T19:08:34+08:00 ] 127.0.0.1 /index.php/Admin/Member/getRegion.html?pid=268&type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0015s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/getRegion' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xlt_region` WHERE `pid` = 268 AND `type` = 3  [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2017-09-13T19:09:06+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0017s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/member_runadd' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0015s ]
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+
+[ 2017-09-13T19:09:18+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002277s ]
+
+[ 2017-09-13T19:12:35+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007208s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0015s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/member_runadd' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+
+[ 2017-09-13T19:12:40+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002800s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/member_runadd' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0012s ]
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+
+[ 2017-09-13T19:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003480s ]
+
+[ 2017-09-13T19:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Member/getRegion.html?pid=19&type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0014s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/getRegion' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xlt_region` WHERE `pid` = 19 AND `type` = 2  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002158s ]
+
+[ 2017-09-13T19:13:07+08:00 ] 127.0.0.1 /index.php/Admin/Member/getRegion.html?pid=259&type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0018s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0015s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/getRegion' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xlt_region` WHERE `pid` = 259 AND `type` = 3  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002327s ]
+
+[ 2017-09-13T19:13:21+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0019s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/member_runadd' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0015s ]
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+
+[ 2017-09-13T19:13:29+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+
+[ 2017-09-13T19:14:56+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002169s ]
+
+[ 2017-09-13T19:15:06+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+
+[ 2017-09-13T19:15:28+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0013s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0015s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/member_runadd' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0015s ]
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+
+[ 2017-09-13T19:15:29+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `xlt_auth_group_access` [ RunTime:0.0013s ]
+SQL: SELECT aga.group_id,ag.rules FROM xlt_auth_group_access aga INNER JOIN xlt_auth_group ag on aga.group_id=ag.id  WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xlt_menu` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xlt_menu` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0016s ]
+SQL: SELECT `id` FROM `xlt_menu` WHERE `name` = 'Member/member_runadd' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlt_menu` ORDER BY sort  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `xlt_member_group` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xlt_region` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `xlt_member` WHERE `member_username` = '张三' LIMIT 1  
+

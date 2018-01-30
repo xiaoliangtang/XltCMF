@@ -1,0 +1,215 @@
+<extend name="Public:base" />
+<block name="page-content">
+
+	<!--
+	<div class="page-header">
+		<h1>
+			Tables
+			<small>
+				<i class="icon-double-angle-right"></i>
+				Static &amp; Dynamic Tables
+			</small>
+		</h1>
+	</div>
+	--><!-- /.page-header -->
+
+	<div class="col-xs-12">
+		<div class="tabbable">
+			<ul class="nav nav-tabs padding-12 tab-color-blue background-blue" id="myTab4">
+				<li>
+					<a href="{:U('Member/index')}">会员列表</a>
+				</li>
+
+				<li class="active">
+					<a href="{:U('Member/member_add')}">添加会员</a>
+				</li>
+
+			</ul>
+
+			<div class="tab-content">
+				<div id="member_add" class="tab-pane in active">
+
+					<div class="page-content">
+
+						<div class="row">
+							<div class="col-xs-12">
+								<form class="form-horizontal form_member_add" name="form_member_add" method="post" action="{:U('Member/member_runadd')}">
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 所属会员组： </label>
+										<div class="col-sm-10">
+											<select name="member_group_id"  class="col-sm-4 selector" required>
+												<option value="">请选择所属会员组</option>
+												<foreach name="member_group_list" item="v">
+													<option value="{$v.member_group_id}">{$v.member_group_name}</option>
+												</foreach>
+											</select>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 用户名：  </label>
+										<div class="col-sm-10">
+											<input type="text" name="member_username" id="member_list_username" placeholder="输入登录会员名" class="col-xs-10 col-sm-4" required/>
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，用户名必须是以字母开头，数字、符号组合</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 登入密码：  </label>
+										<div class="col-sm-10">
+											<input type="password" name="member_pwd" id="member_pwd" placeholder="输入登录密码" class="col-xs-10 col-sm-4" maxlength="15" minlength="5" required/>
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须大于6位，小于15位</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 昵称：  </label>
+										<div class="col-sm-10">
+											<input type="text" name="member_nickname" id="member_list_nickname" placeholder="输入昵称" class="col-xs-10 col-sm-4" />
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 积分：  </label>
+										<div class="col-sm-10">
+											<input type="text" name="member_score" id="member_score" placeholder="0" class="col-xs-10 col-sm-4" />
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 金币：  </label>
+										<div class="col-sm-10">
+											<input type="text" name="member_coin" id="member_coin" placeholder="0" class="col-xs-10 col-sm-4" />
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 所在地：  </label>
+										<div class="col-sm-10">
+											<select name="member_province" id="province" onChange="loadRegion('province',2,'city','{:U('Member/getRegion')}');">
+												<option value="0" selected>省份/直辖市</option>
+												<volist name="province" id="vo">
+												<option value="{$vo.id}" >{$vo.name}</option>
+												</volist>
+											</select>
+											<select name="member_city" id="city"  onchange="loadRegion('city',3,'town','{:U('Member/getRegion')}');">
+												<option value="0">市/县</option>
+											</select>
+											<select name="member_town" id="town">
+												<option value="0">镇/区</option>
+											</select>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 性别：  </label>
+										<div class="col-sm-10">
+											<label>
+												<input name="member_sex" type="radio" value="1" class="ace" />
+												<span class="lbl"> 程序猿 </span>&nbsp;&nbsp;
+											</label>
+											<label>
+												<input name="member_sex" type="radio" value="2" class="ace" />
+												<span class="lbl"> 程序媛 </span>
+											</label>
+											<label>
+												<input name="member_sex" type="radio" value="3" checked class="ace" />
+												<span class="lbl"> 保密 </span>
+											</label>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 手机号码：  </label>
+										<div class="col-sm-10">
+											<input type="text" name="member_tel" id="member_tel" placeholder="输入手机号码" class="col-xs-10 col-sm-4" required/>
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>只能填写数字</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 个人网站：  </label>
+										<div class="col-sm-10">
+											<input type="url" name="member_homepage" id="member_homepage" placeholder="http://" class="col-xs-10 col-sm-4" />
+											<span class="lbl">&nbsp;&nbsp;<span class="red"></span>http://开头</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 签名：  </label>
+										<div class="col-sm-10">
+											<textarea  name="member_signature" cols="20" rows="4" class="col-xs-10 col-sm-4 limited"   id="form-field-12"  maxlength="125"></textarea>
+											<input type="hidden" name="maxlengthone" value="125" />
+											<span class="help-inline">&nbsp;&nbsp;还可以输入 <span class="middle charsLeft"></span> 个字符</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 联系邮箱：  </label>
+										<div class="col-sm-10">
+											<input type="email" name="member_email" id="member_email" placeholder="输入联系邮箱" class="col-xs-10 col-sm-4" required/>
+											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填：用于找回密码</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 是否审核： </label>
+										<div class="col-sm-10" style="padding-top:5px;">
+											<input name="member_status" id="member_status" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
+											<span class="lbl">&nbsp;&nbsp;默认未审核</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 是否激活： </label>
+										<div class="col-sm-10" style="padding-top:5px;">
+											<input name="member_active" id="member_active" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
+											<span class="lbl">&nbsp;&nbsp;默认未激活</span>
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="clearfix form-actions">
+										<div class="col-md-offset-3 col-md-9">
+											<button class="btn btn-info" type="submit">
+												<i class="icon-ok bigger-110"></i>
+												确定
+											</button>
+
+											&nbsp; &nbsp; &nbsp;
+											<button class="btn" type="reset">
+												<i class="icon-undo bigger-110"></i>
+												重置
+											</button>
+										</div>
+									</div>
+									
+								</form>
+							</div>
+						</div>
+					
+					</div><!-- /.page-content -->
+
+				</div>
+			</div>
+		</div>
+	</div><!-- /span -->
+
+</block>
+
+<block name="scripts">
+	<script src="__PUBLIC__/others/region.js"></script>
+</block>

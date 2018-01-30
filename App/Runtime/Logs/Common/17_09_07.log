@@ -1,0 +1,186 @@
+[ 2017-09-07T18:40:15+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-09-07T18:40:22+08:00 ] 127.0.0.1 /assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:22+08:00 ] 127.0.0.1 /assets/avatars/avatar5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:22+08:00 ] 127.0.0.1 /assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000591s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003226s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:22+08:00 ] 127.0.0.1 /assets/avatars/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:22+08:00 ] 127.0.0.1 /assets/avatars/avatar2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:22+08:00 ] 127.0.0.1 /assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:22+08:00 ] 127.0.0.1 /assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002348s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:23+08:00 ] 127.0.0.1 /assets/avatars/avatar2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:23+08:00 ] 127.0.0.1 /assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:23+08:00 ] 127.0.0.1 /assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001889s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:23+08:00 ] 127.0.0.1 /assets/avatars/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:23+08:00 ] 127.0.0.1 /assets/avatars/avatar5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002545s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:23+08:00 ] 127.0.0.1 /assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T18:40:23+08:00 ] 127.0.0.1 /assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002254s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-09-07T19:59:21+08:00 ] 127.0.0.1 /index.php/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+ERR: 无法加载模块:Login
+
+[ 2017-09-07T19:59:27+08:00 ] 127.0.0.1 /index.php/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+ERR: 无法加载模块:Login
+
+[ 2017-09-07T20:00:15+08:00 ] 127.0.0.1 /index.php/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+ERR: 无法加载模块:Login
+
+[ 2017-09-07T20:06:37+08:00 ] 127.0.0.1 /Public/ace/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:37+08:00 ] 127.0.0.1 /Public/ace/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:37+08:00 ] 127.0.0.1 /Public/ace/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:39+08:00 ] 127.0.0.1 /Public/ace/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:39+08:00 ] 127.0.0.1 /Public/ace/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:39+08:00 ] 127.0.0.1 /Public/ace/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:40+08:00 ] 127.0.0.1 /Public/ace/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:40+08:00 ] 127.0.0.1 /Public/ace/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:40+08:00 ] 127.0.0.1 /Public/ace/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:46+08:00 ] 127.0.0.1 /Public/ace/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006654s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:46+08:00 ] 127.0.0.1 /Public/ace/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:06:46+08:00 ] 127.0.0.1 /Public/ace/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-07T20:07:27+08:00 ] 127.0.0.1 /Public/ace/font/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+ERR: 无法加载模块:Public
+

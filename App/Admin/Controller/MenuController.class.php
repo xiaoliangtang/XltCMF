@@ -52,7 +52,7 @@ class MenuController extends BaseController {
     		$this->error('提交方式不正确！');
     	} else {
 
-            //提前pid和level
+            //获取pid和level
             $pid_level = I('post.pid_level','0-1');
             $pid_level_arr = explode('-', $pid_level);
             if ($pid_level === '0-1') {
@@ -72,6 +72,11 @@ class MenuController extends BaseController {
     			'sort' 		=> I('post.sort'),
     			'addtime' 	=> time(),
     			);
+
+            // 验证name(Controller/action)是否已经存在
+            if (M('Menu')->where(array('name'=>I('post.name')))->getField('id')) {
+                $this->error('控制器/方法已经存在！');
+            }
 
     		if (M('Menu')->add($data)) {
     		 	$this->success('菜单添加成功！');
@@ -99,6 +104,7 @@ class MenuController extends BaseController {
 
         // p($menu);die;
         $this->assign('current_id', $id);
+        $this->assign('current_pid', $menu['pid']);
         $this->assign('menu_layer', $menu_layer);
         $this->assign('menu', $menu);
     	$this->display("menu_edit");
@@ -116,7 +122,7 @@ class MenuController extends BaseController {
 
             $id = I('post.id');
             $id ? : $this->error('参数出错！');
-            //提前pid和level
+            //获取pid和level
             $pid_level = I('post.pid_level','0-1');
             $pid_level_arr = explode('-', $pid_level);
             if ($pid_level === '0-1') {
@@ -136,6 +142,13 @@ class MenuController extends BaseController {
                 'sort'      => I('post.sort'),
                 'addtime'   => time(),
                 );
+
+            // 验证name(Controller/action)是否已经存在
+            $where['name'] = I('post.name');
+            $where['id'] = array('neq',$id);
+            if (M('Menu')->where($where)->getField('id')) {
+                $this->error('控制器/方法已经存在！');
+            }
 
             if (M('Menu')->where(array('id'=>$id))->save($data)) {
                 $this->success('菜单编辑成功！', U('Menu/index'));
@@ -169,7 +182,6 @@ class MenuController extends BaseController {
             }
         }
          
-
     }
 
 
@@ -195,7 +207,6 @@ class MenuController extends BaseController {
      */
     public function menu_delete(){
         $del_id = I('get.id');
-
 
         if (M('Menu')->field('id')->where(array('pid'=>$del_id))->find()) {
 

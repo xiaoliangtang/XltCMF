@@ -25,3 +25,32 @@ function menu_layer($menu,$id_field='id',$pid_field='pid',$lefthtml = '─' , $p
     }
     return $arr;
 }
+
+/**
+ * 树形菜单
+ */
+function menu_tree($menu,$id_field='id',$pid_field='pid',$child_field = 'child' , $pid=0){
+
+    $arr = array();
+    foreach ($menu as $v) {
+        if ($v[$pid_field] == $pid) {
+            $v[$child_field] = menu_tree($menu, 'id', 'pid', 'child' , $v[$id_field]);
+            $arr[] = $v;
+        }
+    }
+    return $arr;
+}
+
+/**
+ * 根据当前菜单id获取父级数据
+ */
+function get_parents($menu, $id, $id_field='id', $pid_field='pid'){
+    $arr = array();
+    foreach ($menu as $v) {
+        if($v[$id_field] == $id){
+            $arr[] = $v;
+            $arr = array_merge(get_parents($menu, $v[$pid_field]), $arr);
+        }
+    }
+    return $arr;
+}

@@ -1,0 +1,150 @@
+<extend name="Public:base" />
+<block name="page-content">
+
+	<!--
+	<div class="page-header">
+		<h1>
+			Tables
+			<small>
+				<i class="icon-double-angle-right"></i>
+				Static &amp; Dynamic Tables
+			</small>
+		</h1>
+	</div>
+	--><!-- /.page-header -->
+
+	<div class="col-xs-12">
+		<div class="tabbable">
+			<ul class="nav nav-tabs padding-12 tab-color-blue background-blue" id="myTab4">
+				<li class="active">
+					<a href="{:U('NavCat/index')}">菜单分类列表</a>
+				</li>
+
+				<li>
+					<a href="{:U('NavCat/navcat_add')}">添加菜单分类</a>
+				</li>
+
+			</ul>
+
+			<div class="tab-content">
+				<div id="menu_list" class="tab-pane in active">
+
+					<div class="page-content">
+
+						<div class="row">
+							<div class="col-xs-12">		
+										
+								<!-- PAGE CONTENT BEGINS -->
+
+								<div class="row">
+									<div class="col-xs-12">
+
+										<div class="table-responsive">
+											<table id="sample-table-2" class="table table-striped table-bordered table-hover">
+												<thead>
+													<tr>
+														<th>ID</th>
+														<th>名称</th>
+														<th>标识</th>
+														<th>描述</th>
+														<th>操作</th>
+													</tr>
+												</thead>
+
+												<tbody>
+
+												<volist name="navCats" id="v">
+													<tr>
+
+														<td>{$v.navcid}</td>
+														<td>{$v.name}</td>
+														<td>{$v.flag}</td>
+														<td>{$v.remark}</td>
+
+														<td>
+															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
+
+																<a class="green" href="{:U('NavCat/navcat_edit',array('id'=>$v['navcid']))}">
+																	<i class="icon-pencil bigger-130"></i>
+																</a>
+
+																<a class="red confirm-navcat-delete" href="{:U('NavCat/navcat_delete',array('id'=>$v['navcid']))}" data-info="你确定要删除吗？" title="删除">
+																	<i class="icon-trash bigger-130"></i>
+																</a>
+															</div>
+
+														</td>
+													</tr>
+												</volist>
+
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+
+								<!-- 分页 -->
+								<!--
+								<div class="modal-footer no-margin-top">
+
+									<ul class="pagination pull-right no-margin">
+										<li class="prev disabled">
+											<a href="#">
+												<i class="icon-double-angle-left"></i>
+											</a>
+										</li>
+
+										<li class="active">
+											<a href="#">1</a>
+										</li>
+
+										<li>
+											<a href="#">2</a>
+										</li>
+
+										<li>
+											<a href="#">3</a>
+										</li>
+
+										<li class="next">
+											<a href="#">
+												<i class="icon-double-angle-right"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+								-->
+								<!-- 分页 -->
+
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+
+				</div>
+
+			</div>
+
+
+			</div>
+		</div>
+	</div><!-- /span -->
+
+
+</block>
+
+<block name="scripts">
+
+	<script type="text/javascript">
+		//$("#form_menu_add").validate();
+	</script>
+	<!-- page specific plugin scripts -->
+
+	<script src="__JS__/jquery.dataTables.min.js"></script>
+	<script src="__JS__/jquery.dataTables.bootstrap.js"></script>
+
+	<!-- inline scripts related to this page -->
+
+	<script type="text/javascript">
+
+	</script>
+</block>

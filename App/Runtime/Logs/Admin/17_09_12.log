@@ -1,0 +1,155 @@
+[ 2017-09-12T22:26:49+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029466s ]
+
+[ 2017-09-12T22:26:49+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001512s ]
+
+[ 2017-09-12T22:27:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/admin_runlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `xlt_admin` WHERE `admin_name` = 'xiaoliangtang' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-09-12T22:27:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html?0.7456138389234466
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+
+[ 2017-09-12T22:27:11+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify.html?0.7456138389234466?0.44968918845134875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+
+[ 2017-09-12T22:27:18+08:00 ] 127.0.0.1 /index.php/Admin/Login/admin_runlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `xlt_admin` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `xlt_member` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `xlt_admin` WHERE `admin_name` = 'xiaoliangtang' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `xlt_admin` SET `admin_hits`=admin_hits+1 WHERE `id` = '1' [ RunTime:0.0008s ]
+SQL: UPDATE `xlt_admin` SET `admin_last_login_ip`='127.0.0.1',`admin_last_login_time`='2017-09-12 22:27:18' WHERE `id` = '1' [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xlt_member` WHERE `member_id` = null LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001826s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002945s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001862s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001715s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001762s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001679s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/user.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+
+[ 2017-09-12T22:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/assets/avatars/avatar3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002011s ]
+
+[ 2017-09-12T22:27:36+08:00 ] 127.0.0.1 /index.php/Admin/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-09-12T22:27:41+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+
+[ 2017-09-12T22:28:06+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+
+[ 2017-09-12T22:34:38+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_runadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001911s ]
+
+[ 2017-09-12T22:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+
+[ 2017-09-12T22:50:52+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+
+[ 2017-09-12T22:52:16+08:00 ] 127.0.0.1 /index.php/Admin/Member/member_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+

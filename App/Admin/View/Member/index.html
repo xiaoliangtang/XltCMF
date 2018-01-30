@@ -17,11 +17,11 @@
 		<div class="tabbable">
 			<ul class="nav nav-tabs padding-12 tab-color-blue background-blue" id="myTab4">
 				<li class="active">
-					<a data-toggle="tab" href="#member_list">会员列表</a>
+					<a href="{:U('Member/index')}">会员列表</a>
 				</li>
 
 				<li>
-					<a data-toggle="tab" href="#member_add">添加会员</a>
+					<a href="{:U('Member/member_add')}">添加会员</a>
 				</li>
 
 			</ul>
@@ -35,7 +35,7 @@
 							<div class="row">
 								<div class="col-xs-5">
 									<div class="input-group">
-										<input type="text" class="form-control search-query" placeholder="输入需要查询的会员名或者邮箱" />
+										<input type="text" class="form-control search-query" placeholder="输入需要查询的会员名" />
 										<span class="input-group-btn">
 											<button type="button" class="btn btn-purple btn-sm">
 												搜索
@@ -65,514 +65,88 @@
 													<tr>
 														<th class="center">
 															<label>
-																<input type="checkbox" class="ace" />
+																<input type="checkbox" value="" class="ace" />
 																<span class="lbl"></span>
 															</label>
 														</th>
-														<th>Domain</th>
-														<th>Price</th>
-														<th class="hidden-480">Clicks</th>
-
-														<th>
-															<i class="icon-time bigger-110 hidden-480"></i>
-															Update
-														</th>
-														<th class="hidden-480">Status</th>
-
-														<th></th>
+														<th>会员名</th>
+														<th>用户组</th>
+														<th>昵称[邮箱]</th>
+														<th>来源</th>
+														<th>性别</th>
+														<th>积分</th>
+														<th>注册时间</th>
+														<th>最近登录IP</th>
+														<th>最近登录时间</th>
+														<th>登录次数</th>
+														<th>状态</th>
+														<th>激活</th>
+														<th>操作</th>
 													</tr>
 												</thead>
 
 												<tbody>
+
+												<volist name="member_list" id="v">
 													<tr>
 														<td class="center">
 															<label>
-																<input type="checkbox" class="ace" />
+																<input type="checkbox" class="ace" value="{$v.member_id}" />
 																<span class="lbl"></span>
 															</label>
 														</td>
 
+														<td>{$v.member_username}</td>
+														<td>{$v.member_group_name}</td>
+														<td>{$v.member_nickname} [{$v.member_email}]</td>
+														<td>{$v.member_address}</td>
+														<td>{$v.member_sex}</td>
+														<td>{$v.member_score}</td>
+														<td><php>echo date('Y-m-d H:i',$v['member_addtime'])</php></td>
+														<td>{$v.member_last_login_ip}</td>
+														<td><php>echo date('Y-m-d H:i',$v['member_last_login_time'])</php></td>
+														<td>{$v.member_hits}</td>
+
 														<td>
-															<a href="#">app.com</a>
-														</td>
-														<td>$45</td>
-														<td class="hidden-480">3,330</td>
-														<td>Feb 12</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-warning">Expiring</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
+															<if condition="$v['member_status'] eq 1">
+																<a class="red member-status-btn" href="{:U('Member/member_status')}" data-id="{$v.member_id}" title="已开启">
+																	<div id="zt{$v.member_id}"><button class="btn btn-minier btn-yellow">开启</button></div>
 																</a>
-
-																<a class="green" href="#" data-toggle="modal" data-target="#editModal">
-																	<i class="icon-pencil bigger-130"></i>
+																<else/>
+																<a class="red member-status-btn" href="{:U('Member/member_status')}" data-id="{$v.member_id}" title="已禁用">
+																	<div id="zt{$v.member_id}"><button class="btn btn-minier btn-danger">禁用</button></div>
 																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
+															</if>
 														</td>
 
 														<td>
-															<a href="#">base.com</a>
-														</td>
-														<td>$35</td>
-														<td class="hidden-480">2,595</td>
-														<td>Feb 18</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-success">Registered</span>
+															<if condition="$v['member_active'] eq 1">
+																<a class="red member-active-btn" href="{:U('Member/member_active')}" data-id="{$v.member_id}" title="已激活">
+																	<div id="zt{$v.member_id}"><button class="btn btn-minier btn-yellow">已激活</button></div>
+																</a>
+																<else/>
+																<a class="red member-active-btn" href="{:U('Member/member_active')}" data-id="{$v.member_id}" title="未激活">
+																	<div id="zt{$v.member_id}"><button class="btn btn-minier btn-danger">未激活</button></div>
+																</a>
+															</if>
 														</td>
 
 														<td>
 															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
 
-																<a class="green" href="#">
+																<a class="green" href="{:U('Member/member_edit',array('id'=>$v['member_id']))}">
 																	<i class="icon-pencil bigger-130"></i>
 																</a>
 
-																<a class="red" href="#">
+																<a class="red confirm-member-delete" href="{:U('Member/member_delete',array('id'=>$v['member_id']))}" data-info="你确定要删除吗？" title="删除">
 																	<i class="icon-trash bigger-130"></i>
 																</a>
 															</div>
 
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
 														</td>
+														
 													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">max.com</a>
-														</td>
-														<td>$60</td>
-														<td class="hidden-480">4,400</td>
-														<td>Mar 11</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-warning">Expiring</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">best.com</a>
-														</td>
-														<td>$75</td>
-														<td class="hidden-480">6,500</td>
-														<td>Apr 03</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-inverse arrowed-in">Flagged</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">pro.com</a>
-														</td>
-														<td>$55</td>
-														<td class="hidden-480">4,250</td>
-														<td>Jan 21</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-success">Registered</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">team.com</a>
-														</td>
-														<td>$40</td>
-														<td class="hidden-480">3,200</td>
-														<td>Feb 09</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-inverse arrowed-in">Flagged</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
-
-													<tr>
-														<td class="center">
-															<label>
-																<input type="checkbox" class="ace" />
-																<span class="lbl"></span>
-															</label>
-														</td>
-
-														<td>
-															<a href="#">up.com</a>
-														</td>
-														<td>$95</td>
-														<td class="hidden-480">8,520</td>
-														<td>Feb 22</td>
-
-														<td class="hidden-480">
-															<span class="label label-sm label-info arrowed arrowed-righ">Sold</span>
-														</td>
-
-														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="blue" href="#">
-																	<i class="icon-zoom-in bigger-130"></i>
-																</a>
-
-																<a class="green" href="#">
-																	<i class="icon-pencil bigger-130"></i>
-																</a>
-
-																<a class="red" href="#">
-																	<i class="icon-trash bigger-130"></i>
-																</a>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-caret-down icon-only bigger-120"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</td>
-													</tr>
+												</volist>
 
 												</tbody>
 											</table>
@@ -617,389 +191,9 @@
 
 				</div>
 
-				<div id="member_add" class="tab-pane">
-					<div class="page-content">
-
-						<div class="row">
-							<div class="col-xs-12">
-								<form class="form-horizontal memberform" name="member_list_add" method="post" action="{:U('Member/member_runadd')}">
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 所属用户组： </label>
-										<div class="col-sm-10">
-											<select name="member_list_groupid"  class="col-sm-4 selector" required>
-												<option value="">请选择所属用户组</option>
-												{foreach name="member_group" item="v"}
-													<option value="{$v.member_group_id}">{$v.member_group_name}</option>
-												{/foreach}
-											</select>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 用户名：  </label>
-										<div class="col-sm-10">
-											<input type="text" name="member_list_username" id="member_list_username" placeholder="输入登录用户名" class="col-xs-10 col-sm-4" required/>
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，用户名必须是以字母开头，数字、符号组合</span>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 登入密码：  </label>
-										<div class="col-sm-10">
-											<input type="text" name="member_list_pwd" id="member_list_pwd" placeholder="输入登录密码" class="col-xs-10 col-sm-4" maxlength="15" minlength="5" required/>
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须大于6位，小于15位</span>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 昵称：  </label>
-										<div class="col-sm-10">
-											<input type="text" name="member_list_nickname" id="member_list_nickname" placeholder="输入昵称" class="col-xs-10 col-sm-4" />
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 积分：  </label>
-										<div class="col-sm-10">
-											<input type="text" name="score" id="score" placeholder="0" class="col-xs-10 col-sm-4" />
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 金币：  </label>
-										<div class="col-sm-10">
-											<input type="text" name="coin" id="coin" placeholder="0" class="col-xs-10 col-sm-4" />
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 所在地：  </label>
-										<div class="col-sm-10">
-											<select name="member_list_province" id="province" onChange="loadRegion('province',2,'city','{:U('ajax/getRegion')}');">
-												<option value="0" selected>省份/直辖市</option>
-												{volist name="province" id="vo"}
-												<option value="{$vo.id}" >{$vo.name}</option>
-												{/volist}
-											</select>
-											<select name="member_list_city" id="city"  onchange="loadRegion('city',3,'town','{:U('ajax/getRegion')}');">
-												<option value="0">市/县</option>
-											</select>
-											<select name="member_list_town" id="town">
-												<option value="0">镇/区</option>
-											</select>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 性别：  </label>
-										<div class="col-sm-10">
-											<label>
-												<input name="member_list_sex" type="radio" value="1" class="ace" />
-												<span class="lbl"> 程序猿 </span>&nbsp;&nbsp;
-											</label>
-											<label>
-												<input name="member_list_sex" type="radio" value="2" class="ace" />
-												<span class="lbl"> 程序媛 </span>
-											</label>
-											<label>
-												<input name="member_list_sex" type="radio" value="3" checked class="ace" />
-												<span class="lbl"> 保密 </span>
-											</label>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 手机号码：  </label>
-										<div class="col-sm-10">
-											<input type="text" name="member_list_tel" id="member_list_tel" placeholder="输入手机号码" class="col-xs-10 col-sm-4" required/>
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>只能填写数字</span>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 个人网站：  </label>
-										<div class="col-sm-10">
-											<input type="url" name="user_url" id="user_url" placeholder="http://www.rainfer.cn" class="col-xs-10 col-sm-4" />
-											<span class="lbl">&nbsp;&nbsp;<span class="red"></span>http://开头</span>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 签名：  </label>
-										<div class="col-sm-10">
-											<textarea  name="signature" cols="20" rows="4" class="col-xs-10 col-sm-4 limited"   id="form-field-12"  maxlength="125"></textarea>
-											<input type="hidden" name="maxlengthone" value="125" />
-											<span class="help-inline">&nbsp;&nbsp;还可以输入 <span class="middle charsLeft"></span> 个字符</span>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 联系邮箱：  </label>
-										<div class="col-sm-10">
-											<input type="email" name="member_list_email" id="member_list_email" placeholder="输入联系邮箱" class="col-xs-10 col-sm-4" required/>
-											<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填：用于找回密码</span>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 是否审核： </label>
-										<div class="col-sm-10" style="padding-top:5px;">
-											<input name="member_list_open" id="member_list_open" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
-											<span class="lbl">&nbsp;&nbsp;默认关闭</span>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="form-group">
-										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 是否激活： </label>
-										<div class="col-sm-10" style="padding-top:5px;">
-											<input name="user_status" id="user_status" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
-											<span class="lbl">&nbsp;&nbsp;默认未激活</span>
-										</div>
-									</div>
-									<div class="space-4"></div>
-
-									<div class="clearfix form-actions">
-										<div class="col-md-offset-3 col-md-9">
-											<button class="btn btn-info" type="button">
-												<i class="icon-ok bigger-110"></i>
-												确定
-											</button>
-
-											&nbsp; &nbsp; &nbsp;
-											<button class="btn" type="reset">
-												<i class="icon-undo bigger-110"></i>
-												重置
-											</button>
-										</div>
-									</div>
-									
-								</form>
-							</div>
-						</div>
-					</div><!-- /.page-content -->
-
-				</div>
-
-
 			</div>
 		</div>
 	</div><!-- /span -->
-
-
-
-	<!-- 显示编辑模态框（Modal） -->
-	<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-
-		<div class="modal-dialog" style="width: 70%;">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"
-							aria-hidden="true">×
-					</button>
-					<h4 class="modal-title" id="myModalLabel">
-						编辑用户
-					</h4>
-				</div>
-				<div class="modal-body">
-
-					<div class="row">
-						<div class="col-xs-12">
-							<!-- PAGE CONTENT BEGINS -->
-
-							<form class="form-horizontal memberform" name="member_list_add" method="post" action="{:U('Member/member_runadd')}">
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 所属用户组： </label>
-									<div class="col-sm-10">
-										<select name="member_list_groupid"  class="col-sm-4 selector" required>
-											<option value="">请选择所属用户组</option>
-											{foreach name="member_group" item="v"}
-												<option value="{$v.member_group_id}">{$v.member_group_name}</option>
-											{/foreach}
-										</select>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 用户名：  </label>
-									<div class="col-sm-10">
-										<input type="text" name="member_list_username" id="member_list_username" placeholder="输入登录用户名" class="col-xs-10 col-sm-4" required/>
-										<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，用户名必须是以字母开头，数字、符号组合</span>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 登入密码：  </label>
-									<div class="col-sm-10">
-										<input type="text" name="member_list_pwd" id="member_list_pwd" placeholder="输入登录密码" class="col-xs-10 col-sm-4" maxlength="15" minlength="5" required/>
-										<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填，密码必须大于6位，小于15位</span>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 昵称：  </label>
-									<div class="col-sm-10">
-										<input type="text" name="member_list_nickname" id="member_list_nickname" placeholder="输入昵称" class="col-xs-10 col-sm-4" />
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 积分：  </label>
-									<div class="col-sm-10">
-										<input type="text" name="score" id="score" placeholder="0" class="col-xs-10 col-sm-4" />
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 金币：  </label>
-									<div class="col-sm-10">
-										<input type="text" name="coin" id="coin" placeholder="0" class="col-xs-10 col-sm-4" />
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 所在地：  </label>
-									<div class="col-sm-10">
-										<select name="member_list_province" id="province" onChange="loadRegion('province',2,'city','{:U('ajax/getRegion')}');">
-											<option value="0" selected>省份/直辖市</option>
-											{volist name="province" id="vo"}
-											<option value="{$vo.id}" >{$vo.name}</option>
-											{/volist}
-										</select>
-										<select name="member_list_city" id="city"  onchange="loadRegion('city',3,'town','{:U('ajax/getRegion')}');">
-											<option value="0">市/县</option>
-										</select>
-										<select name="member_list_town" id="town">
-											<option value="0">镇/区</option>
-										</select>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 性别：  </label>
-									<div class="col-sm-10">
-										<label>
-											<input name="member_list_sex" type="radio" value="1" class="ace" />
-											<span class="lbl"> 程序猿 </span>&nbsp;&nbsp;
-										</label>
-										<label>
-											<input name="member_list_sex" type="radio" value="2" class="ace" />
-											<span class="lbl"> 程序媛 </span>
-										</label>
-										<label>
-											<input name="member_list_sex" type="radio" value="3" checked class="ace" />
-											<span class="lbl"> 保密 </span>
-										</label>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 手机号码：  </label>
-									<div class="col-sm-10">
-										<input type="text" name="member_list_tel" id="member_list_tel" placeholder="输入手机号码" class="col-xs-10 col-sm-4" required/>
-										<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>只能填写数字</span>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 个人网站：  </label>
-									<div class="col-sm-10">
-										<input type="url" name="user_url" id="user_url" placeholder="http://www.rainfer.cn" class="col-xs-10 col-sm-4" />
-										<span class="lbl">&nbsp;&nbsp;<span class="red"></span>http://开头</span>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 签名：  </label>
-									<div class="col-sm-10">
-										<textarea  name="signature" cols="20" rows="4" class="col-xs-10 col-sm-4 limited"   id="form-field-12"  maxlength="125"></textarea>
-										<input type="hidden" name="maxlengthone" value="125" />
-										<span class="help-inline">&nbsp;&nbsp;还可以输入 <span class="middle charsLeft"></span> 个字符</span>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 联系邮箱：  </label>
-									<div class="col-sm-10">
-										<input type="email" name="member_list_email" id="member_list_email" placeholder="输入联系邮箱" class="col-xs-10 col-sm-4" required/>
-										<span class="lbl">&nbsp;&nbsp;<span class="red">*</span>必填：用于找回密码</span>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 是否审核： </label>
-									<div class="col-sm-10" style="padding-top:5px;">
-										<input name="member_list_open" id="member_list_open" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
-										<span class="lbl">&nbsp;&nbsp;默认关闭</span>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="form-group">
-									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 是否激活： </label>
-									<div class="col-sm-10" style="padding-top:5px;">
-										<input name="user_status" id="user_status" value="1" class="ace ace-switch ace-switch-4 btn-flat" type="checkbox" />
-										<span class="lbl">&nbsp;&nbsp;默认未激活</span>
-									</div>
-								</div>
-								<div class="space-4"></div>
-
-								<div class="modal-footer">
-									<button type="submit" class="btn btn-primary">
-										提交保存
-									</button>
-									<button class="btn btn-info" type="reset">
-										重置
-									</button>
-									<button type="button" class="btn btn-default" data-dismiss="modal">
-										关闭
-									</button>
-								</div>
-								
-							</form>
-							
-						</div><!-- /.col -->
-					</div><!-- /.row -->
-
-
-
-
-				</div>
-				
-			</div><!-- /.modal-content -->
-		</div><!-- /.modal-dialog -->
-
-	</div><!-- /.modal -->
-
-
-
-
-
-
 
 </block>
 
